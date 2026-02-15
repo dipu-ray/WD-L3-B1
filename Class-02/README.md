@@ -16,6 +16,8 @@
 - `Themewagon`
 - See and explore for idea different type of website.
 
+<hr>
+
 ### 2. Coding skills for Web Design
 - `HTML`
 - `CSS`
@@ -24,10 +26,14 @@
     - `React JS`
 - `CMS` - `Content Management System`
 
+<hr>
+
 ### 3. Setting in VSCode
 - `Auto Save`
 - `Zoom in / Out`
 - `Etc...`
+
+<hr>
 
 ### 4. Explain HTML structure
 - `<DOCTYPE html>` - Define HTML5 or Version.
@@ -37,6 +43,8 @@
 - `<head>` - Providing essential information to browsers.
 - `<title>` - Browser tabs and search engine result pages.
 - `<body>` - The container for all content visible to web users in their browsers.
+
+<hr>
 
 ### 5. Learn HTML tags or element
 - `<h1>` - Heading One
@@ -55,6 +63,8 @@
 - `HTML Formatting` - In W3Schools
 - `HTML Quotations` - In W3Schools
 - `HTML Comments` - In W3Schools
+
+<hr>
 
 ### 6. Learn basic CSS or style
 - Three type of CSS:
@@ -81,6 +91,8 @@
     - `Class selector` - A way to apply the same styles to multiple HTML elements on a web page.
 - `CSS Comments` - `/* This is comment */`
 - `Nested selector in CSS` - `.section .content h1`
+
+<hr>
 
 ### 7. Home Work
 - Make navbar and main part make profile card.
