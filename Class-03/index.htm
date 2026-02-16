@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Class 03 | HTML Form, Table and CSS basic</title>
+</head>
+<body>
+    <!-- HTML Table -->
+    <h1>HTML Table:</h1>
+    <table border="1" width="70%" cellpadding="10" cellspacing="10">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Software Engineer</td>
+                <td>IT</td>
+                <td>1,00,000</td>
+                <td>123456789</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Thor Odin</td>
+                <td>Backend Engineer</td>
+                <td>IT</td>
+                <td>90,000</td>
+                <td>123456789</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>3</td>
+                <td>Robbert Downy</td>
+                <td>AI Engineer</td>
+                <td>IT</td>
+                <td>2,50,0000</td>
+                <td>123456789</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br><hr><br><br>
+
+    <!-- HTML Forms -->
+    <h1>HTML Forms:</h1>
+    <form action="index.htm" method="post" enctype="multipart/form-data">
+        <div class="mb-16">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required readonly disabled placeholder="Enter Name">
+        </div>
+        <div class="mb-16">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="mb-16">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password">
+        </div>
+        <div class="mb-16">
+            <label for="image">Image:</label>
+            <input type="file" name="image" id="image" accept="image/*">
+        </div>
+        <div class="mb-16">
+            <button type="submit">Submit</button>
+            <!-- <input type="submit" value="Submit"> -->
+        </div>
+    </form>
+</body>
+</html>
