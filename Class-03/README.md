@@ -1,48 +1,71 @@
 ## Date: 16 February, 2026 - Monday
 
 ## Topics:
-- Recap previous HTML, CSS and New
-- Make a table with HTML
+- Recap previous HTML and CSS
+- Learn new something from HTML, CSS
+- HTML Tables
 - HTML Forms
 
 <hr>
 
-### 1. Recap previous HTML, CSS and New
+### 1. Recap previous HTML and CSS
 - HTML Elements:
-    - `<div>` - 
-    - `<span>` - 
-    - `HTML Links` - In W3Schools
-    - `HTML Formatting` - In W3Schools
-    - `HTML Quotations` - In W3Schools
-    - `HTML Comments` - In W3Schools
-    - `<img>` - link, float, 
-- CSS Properties:
-    - `color` - In W3Schools and most important property.
+    - `<div>`
+    - `Classes`
+    - `Id`
+    - `HTML Elements`
+    - `HTML Attributes`
+    - `HTML Headings`
+    - `HTML Paragraphs`
+    - `HTML Styles`
+    - `HTML Formatting`
+    - `HTML Quotations`
+    - `HTML Comments`
+    - `HTML Colors`
         - `rgb` - Max value 255.
         - `HEX` - `0123456789abcdef` use six value.
-            - `pixie color picker` - That is a software for color picker. `Search UI color` and `Search Tailwind CSS color`
-    and `W3Schools color picker`.
-    - `overflow` - Most important property.
+        - `pixie color picker` - That is a software for color picker. `Search UI color` and `Search Tailwind CSS color` and `W3Schools color picker`.
+    - `HTML CSS`
+    - `HTML Links`
 
 <hr>
 
-### 2. Make a table with HTML
-- `<table>`
-- `<thead>`
-- `<th>`
-- `<td>`
-- `<tbody>`
-- `<tr>`
-- `<tfoot>`
-- Using basic CSS in this table elements.
-- `rowspan` - Merge row
-- `colspan` - Merge column
-- `caption` - Caption into table tag on the top.
+### 2. Learn new something from HTML, CSS
+- HTML Elements:
+    - `<img>`
+- CSS Properties:
+    - `color:`
+    - `overflow:`
+    - `float:`
+
+<hr>
+
+### 3. HTML Tables
+- HTML Elements:
+    - `<table>`
+    - `<caption>`
+    - `<thead>`
+    - `<tr>`
+    - `<th>`
+    - `<tbody>`
+    - `<td>`
+    - `<tfoot>`
+- CSS Properties:
+    - `border-collapse:`
+    - `width:`
+    - `border:`
+    - `text-align:`
+    - `padding:`
+    - `border-style:`
+    - `border-spacing:`
+- HTML Attributes in Tables:
+    - `colspan="2"` - Merge Column
+    - `rowspan="2"` - Merge Row
 - Files: `index.html`
 
 <hr>
 
-### 3. HTML Forms
+### 4. HTML Forms
 - `<form>` - 
 - `<label>` - 
 - `<input>` - Types:
