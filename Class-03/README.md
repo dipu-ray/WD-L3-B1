@@ -66,10 +66,45 @@
 <hr>
 
 ### 4. HTML Forms
-- `<form>` - 
-- `<label>` - 
-- `<input>` - Types:
-    - `text`, `email`, `file` and `password` there have so many attributes etc...
-- `<button>` - 
-- Practice whole forms elements and attributes.
+- HTML Elements:
+    - `<form>`
+    - `<label>`
+    - `<input>`
+    - Input Types Attributes:
+        - `type="text"`
+        - `type="email"`
+        - `type="password"`
+        - `type="number"`
+        - `type="search"`
+        - `type="url"`
+        - `type="tel"`
+        - `type="checkbox"`
+        - `type="radio"`
+        - `type="button"`
+        - `type="submit"`
+        - `type="reset"`
+        - `type="image"`
+        - `type="range"`
+        - `type="date"`
+        - `type="datetime-local"`
+        - `type="month"`
+        - `type="time"`
+        - `type="week"`
+        - `type="color"`
+        - `type="file"`
+        - `type="hidden"`
+    - HTML Form Attributes:
+        - `action=""`
+        - `method=""`
+        - `enctype=""`
+        - `autocomplete=""`
+        - `target=""`
+        - `novalidate`
+        - `id=""`
+        - `name=""`
+        - `value=""`
+        - `placeholder=""`
+        - `required`
+        - `readonly`
+        - `disabled`
 - Files: `index.html`
