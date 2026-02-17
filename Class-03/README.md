@@ -59,8 +59,8 @@
     - `border-style:`
     - `border-spacing:`
 - HTML Attributes in Tables:
-    - `colspan="2"` - Merge Column
-    - `rowspan="2"` - Merge Row
+    - `colspan=""`
+    - `rowspan=""`
 
 <hr>
 

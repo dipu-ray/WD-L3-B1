@@ -96,4 +96,3 @@
 
 ### 7. Home Work
 - Make navbar and main part make profile card.
-- Folder Name: `home-work`
