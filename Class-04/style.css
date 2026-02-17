@@ -1,3 +1,61 @@
-h1 {
-    color: green;
+table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table th {
+    background-color: darkblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.contact-form {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-form hr {
+    width: 50px;
+    height: 3px;
+    background-color: rgb(117, 100, 2);
+    border-radius: 10px;
+}
+
+.contact-form input {
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.contact-form input::placeholder {
+    color: black;
+}
+
+.contact-form textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.contact-form #btn {
+    background-color: rgb(117, 100, 2);
+    border-radius: 50px;
+    width: 320px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
 }

@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Class 04 | HTML Elements and CSS Basics</title>
+    <title>Class 04 | Task in the class</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <h1>Task 1</h1>
+    <table>
+        <caption>Student List:</caption>
+        <thead>
+            <tr>
+                <th>SL No</th>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Department</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Akash Ahmed</td>
+                <td>2026</td>
+                <td>CSE</td>
+                <td>293429887893</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Siyam Ahmed</td>
+                <td>2027</td>
+                <td>Cyber Security</td>
+                <td>948627893642</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Raisul Islam</td>
+                <td>2027</td>
+                <td>SWE</td>
+                <td>923749266782</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>4</td>
+                <td>Dipu Ray</td>
+                <td>2028</td>
+                <td>SWE</td>
+                <td>192619847687</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br><hr><br>
+
+    <div class="contact-form">
+        <h1>Let's Get In Touch!</h1>
+        <hr>
+        <p>Ready to start your next project with use? Send us a messages and we will get <br> back to you as soon as possible!</p>
+        <form action="">
+            <input type="text" name="fname" id="fname" placeholder="Full Name" required> <br>
+            <input type="email" name="email" id="email" placeholder="Email Address" required> <br>
+            <input type="number" name="number" id="number" placeholder="Phone Number" required> <br>
+            <textarea id="message" name="message" rows="4" cols="22">Message</textarea required> <br>
+            <button id="btn" type="button">SUBMIT</button>
+            <br>
+        </form>
+    </div>
 </body>
 </html>
