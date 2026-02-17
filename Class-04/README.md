@@ -26,15 +26,15 @@
 - HTML Forms Elements:
     - HTML Elements:
         - `<form>`
-        - `<label>`
         - `<input>`
-        - `<textarea>`
-        - `<select>`
-        - `<fieldset>`
-        - `<legend>`
-        - `<optgroup>`
-        - `<option>`
-        - `<progress>`
+        - `<label>` - Input field descriptions
+        - `<textarea>` - For multi-line text input
+        - `<select>` - Dropdown list
+        - `<option>` - Dropdown list choices
+        - `<fieldset>` - Related information group
+        - `<legend>` - Related information group name
+        - `<optgroup>` - Dropdown make groups
+        - `<progress>` - Work progress range
         - `<reset>` - Reset button in forms
         - Input Types Attributes:
             - `type="text"`
@@ -50,19 +50,19 @@
             - `type="date"`
             - `type="file"`
         - HTML Form Attributes:
-            - `action=""`
-            - `method=""`
-            - `enctype=""`
-            - `target=""`
-            - `id=""`
-            - `name=""`
-            - `value=""`
-            - `placeholder=""`
-            - `rows=""`
-            - `cols=""`
-            - `required`
-            - `disabled`
-            - `multiple`
+            - `action=""` - Where data after form submit
+            - `method=""` - How data pass into server
+            - `enctype=""` - For files upload
+            - `target=""` - For new tab
+            - `id=""` - Unique identity for JS
+            - `name=""` - For backend data sending
+            - `value=""` - Input's initial value
+            - `placeholder=""` - Word into input box
+            - `rows=""` - textarea height
+            - `cols=""` - textarea width
+            - `required` - Must be input fill-up
+            - `disabled` - Not using
+            - `multiple` - Select multiple
     - CSS Properties:
         - `width:`
         - `outline:`
@@ -79,18 +79,17 @@
     - `realfavicongenerator.net` - show icon how to website for other devices.
     - There have 5 link to attached head to favicon for standard.
 - HTML Iframes:
-    - `<iframe>` - HTML iframe element.
+    - `<iframe>`
     - `frameborder=""`
     - `width=""`
     - `height=""`
-    - `uBlock origin lite` - for block elements in browser.
 
 <hr>
 
 ### 3. HTML JavaScript and Others
 - HTML JavaScript:
-    - `<script>`
-- And Others: - Just basic idea
+    - `<script>` - Add this element in footer
+- And Others: - Just basic idea of this HTML Elements.
     - `HTML File Path`
     - `HTML Head`
     - `HTML Layout`
@@ -102,8 +101,9 @@
     - `HTML Emojis`
     - `HTML Charsets`
     - `HTML URL Encode`
-        - HTTPs - 443 port
-        - HTTP - 80 port
+        - Protocol - Default Port - Security
+        - HTTP - 80 port - Unencrypted (normal)
+        - HTTPS - 443 port - Encrypted (SSL/TLS)
     - `HTML vs XHTML`
 - Visit `themewagon` web and see html and css template for idea or better understanding to web design.
 
@@ -112,6 +112,6 @@
 ### 4. CSS - Cascading Style Sheets
 - `CSS Home`
 - `CSS Introduction`
-- `tutorialrepublic.com` - Website for learn HTML and CSS
 - `CSS Syntax`
 - `CSS Selectors` - Universal, Element, Id and Class
+- `tutorialrepublic.com` - Website for learn HTML and CSS
