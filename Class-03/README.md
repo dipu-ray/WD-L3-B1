@@ -61,7 +61,6 @@
 - HTML Attributes in Tables:
     - `colspan="2"` - Merge Column
     - `rowspan="2"` - Merge Row
-- Files: `index.html`
 
 <hr>
 
@@ -107,4 +106,3 @@
         - `required`
         - `readonly`
         - `disabled`
-- Files: `index.html`
