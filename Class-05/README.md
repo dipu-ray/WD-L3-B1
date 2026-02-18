@@ -4,7 +4,7 @@
 - Learn HTML Media
 - Learn and explore CSS
 
-<hr>
+---
 
 ### 1. Learn HTML Media
 - HTML Media Elements:
@@ -16,7 +16,7 @@
     - `HTML Canvas` - Learn basics
 - `svg` file are light weight for others images.
 
-<hr>
+---
 
 ### 2. Learn and explore CSS
 - `CSS Color` - 140 color are supported.
