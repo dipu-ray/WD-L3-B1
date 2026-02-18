@@ -7,8 +7,7 @@
 <hr>
 
 ### 1. Learn HTML Media
-- `three.js` - This website for make 3D and interactive
-- HTML Elements:
+- HTML Media Elements:
     - `HTML Media`
     - `HTML Video`
     - `HTML Audio`
@@ -20,18 +19,19 @@
 <hr>
 
 ### 2. Learn and explore CSS
-- `CSS Selectors` - There have so many selectors.
 - `CSS Color` - 140 color are supported.
 - `CSS Comments`
 - `CSS Background` -  CSS background color.
-- Website layout have two types:
-    - `fixed layout`
-    - `flued layout`
-- CSS Properties:
-    - `background-color`
-    - `background-image`
-    - `background-repeat`
-    - `background-attachment`
-    - `background-position`
-    - `background-size`
-    - Shorthand property - `background: #000 url("profile.jpg") no-repeat fixed center center/cover;`
+    - CSS background properties:
+        - `background-color`
+        - `background-image`
+        - `background-repeat`
+        - `background-attachment`
+        - `background-position`
+        - `background-size`
+        - Shorthand property - `background: #000 url("profile.jpg") no-repeat fixed center center/cover;`
+- Website layout types:
+    - `Fixed Layout`
+    - `Fluid Layout`
+    - `Responsive Layout`
+    - `Adaptive Layout`

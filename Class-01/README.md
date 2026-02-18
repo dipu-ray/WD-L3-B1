@@ -55,8 +55,8 @@
     ```
 - `<!DOCTYPE html>` - Is the document type declaration for HTML5.
 - `<html lang="en">` - That specifies the primary language of the document as English. 
-- `<head>` - A container that holds metadata—information about the document—that is not directly displayed to users on the webpage itself
-- `<meta charset="UTF-8">` - Is an HTML tag that tells web browsers to use the Unicode (UTF-8) character encoding
+- `<head>` - A container that holds metadata—information about the document—that is not directly displayed to users on the webpage itself.
+- `<meta charset="UTF-8">` - Is an HTML tag that tells web browsers to use the Unicode (UTF-8) character encoding.
 - `<meta name="viewport"...` - This HTML meta tag is the standard, essential instruction for ensuring a website is responsive and mobile-friendly.
 - `<title>` - Appearing in browser tabs, search engine results (SERPs) as the clickable headline, and social media previews.
 - `<body>` - Defines the main, visible content of a web page, acting as a container for text, images, links, tables, and multimedia.
@@ -84,14 +84,12 @@
     - `<i>`
     - `<div>`
     - `<a>` - Attributes tags
-    - To add next class -> Class 2
 
 <hr>
 
 ### 6. Block element and Inline element
-- `Block Element`: An inline element in HTML is an element that always starts on a new line and takes up the full width available across the web page by default. Example: `<div>. <p>, <h1> etc.`
-- `Inline Element`: An inline element in HTML is an element that does not start on a new line and only takes up as much width as is necessary for its content. Example: `<a>, <img>, <b> etc.`
-
+- `Block Element`: An inline element in HTML is an element that always starts on a new line. Most using block elements: `<div>. <p>, <h1> -> <h6>, <section>, <article>, <header>, <footer>, <nav>, <ul>, <ol>, <li>, <form> etc.`
+- `Inline Element`: An inline element in HTML is an element that does not start on a new line. Most using inline elements: `<span>, <a>, <strong>, <em>, <img>, <input>, <label>, <br>, <small>, <b>, <i> etc.`
 
 <hr>
 
@@ -106,9 +104,3 @@
 - `<ins>` - Inserted text
 - `<sub>` - Subscript text
 - `<sup>` - Superscript text
-
-<hr>
-
-### Class 1
-- Learn and practice from w3schools:
-    - HTML Home to HTML Favicon

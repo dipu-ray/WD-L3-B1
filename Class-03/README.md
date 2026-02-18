@@ -1,46 +1,30 @@
 ## Date: 16 February, 2026 - Monday
 
 ## Topics:
-- Recap previous HTML and CSS
-- Learn new something from HTML, CSS
+- Learn HTML and CSS basics
 - HTML Tables
 - HTML Forms
 
 <hr>
 
-### 1. Recap previous HTML and CSS
-- HTML Elements:
-    - `<div>`
-    - `Classes`
-    - `Id`
-    - `HTML Elements`
-    - `HTML Attributes`
-    - `HTML Headings`
-    - `HTML Paragraphs`
-    - `HTML Styles`
-    - `HTML Formatting`
-    - `HTML Quotations`
-    - `HTML Comments`
+### 1. Learn HTML and CSS basics
+- HTML - From W3Schools
     - `HTML Colors`
         - `rgb` - Max value 255.
         - `HEX` - `0123456789abcdef` use six value.
-        - `pixie color picker` - That is a software for color picker. `Search UI color` and `Search Tailwind CSS color` and `W3Schools color picker`.
+        - `pixie color picker` - That is a software for color picker.
     - `HTML CSS`
     - `HTML Links`
-
-<hr>
-
-### 2. Learn new something from HTML, CSS
 - HTML Elements:
     - `<img>`
 - CSS Properties:
-    - `color:`
-    - `overflow:`
-    - `float:`
+    - `color`
+    - `overflow`
+    - `float`
 
 <hr>
 
-### 3. HTML Tables
+### 2. HTML Tables
 - HTML Elements:
     - `<table>`
     - `<caption>`
@@ -51,25 +35,25 @@
     - `<td>`
     - `<tfoot>`
 - CSS Properties:
-    - `border-collapse:`
-    - `width:`
-    - `border:`
-    - `text-align:`
-    - `padding:`
-    - `border-style:`
-    - `border-spacing:`
+    - `border-collapse`
+    - `width`
+    - `border`
+    - `text-align`
+    - `padding`
+    - `border-style`
+    - `border-spacing`
 - HTML Attributes in Tables:
-    - `colspan=""`
-    - `rowspan=""`
+    - `colspan`
+    - `rowspan`
 
 <hr>
 
-### 4. HTML Forms
+### 3. HTML Forms
 - HTML Elements:
     - `<form>`
     - `<label>`
     - `<input>`
-    - Input Types Attributes:
+    - Inputs type attributes values:
         - `type="text"`
         - `type="email"`
         - `type="password"`
@@ -93,16 +77,16 @@
         - `type="file"`
         - `type="hidden"`
     - HTML Form Attributes:
-        - `action=""`
-        - `method=""`
-        - `enctype=""`
-        - `autocomplete=""`
-        - `target=""`
-        - `novalidate`
-        - `id=""`
-        - `name=""`
-        - `value=""`
-        - `placeholder=""`
-        - `required`
-        - `readonly`
-        - `disabled`
+        - `action=""` - Where to go after form submit
+        - `method=""` - How to go data in server
+        - `enctype=""` - Detect format when file upload in form
+        - `autocomplete=""` - Browser automatically previous data suggest
+        - `target=""` - Where result open after form submit
+        - `novalidate` - Stop browser automatic validation
+        - `id=""` - Element unique identity for CSS / JS
+        - `name=""` - To send server data key
+        - `value=""` - Define input initial value
+        - `placeholder=""` - Hint text into input box
+        - `required` - Field fill-up must be
+        - `readonly` - User can't value change
+        - `disabled` - Field doesn't using
