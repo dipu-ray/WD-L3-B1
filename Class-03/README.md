@@ -5,7 +5,7 @@
 - HTML Tables
 - HTML Forms
 
-<hr>
+---
 
 ### 1. Learn HTML and CSS basics
 - HTML - From W3Schools
@@ -22,7 +22,7 @@
     - `overflow`
     - `float`
 
-<hr>
+---
 
 ### 2. HTML Tables
 - HTML Elements:
@@ -46,7 +46,7 @@
     - `colspan`
     - `rowspan`
 
-<hr>
+---
 
 ### 3. HTML Forms
 - HTML Elements:

@@ -4,7 +4,7 @@
 - Learn HTML tags or element
 - Learn basic CSS properties
 
-<hr>
+---
 
 ### 1. Learn HTML tags or element
 - `<nav>` - Navbar
@@ -16,7 +16,7 @@
 - `HTML Quotations` - In W3Schools
 - `HTML Comments` - In W3Schools
 
-<hr>
+---
 
 ### 2. Learn basic CSS properties
 - Three type of CSS:

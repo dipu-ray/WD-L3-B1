@@ -9,7 +9,7 @@
 - Block element and Inline element
 - Formatting element
 
-<hr>
+---
 
 ### 1. Basic idea of Web Deign
 - What is Web Design?
@@ -20,7 +20,7 @@
 - How to work a Website?
     - Working a website involves a technical process where a user's browser sends a request to a server, which then delivers files to display the webpage.
 
-<hr>
+---
 
 ### 2. Install VSCode and Extensions
 - Here is the link to download VSCode:
@@ -32,12 +32,12 @@
     - Live server
     - Path Intelligence
 
-<hr>
+---
 
 ### 3. Create a new HTML file in VSCode
 - Make a new file with `.html` extension. Example: `index.html`
 
-<hr>
+---
 
 ### 4. Explain HTML boilerplate and SEO
 - Here is HTML boilerplate:
@@ -71,7 +71,7 @@
     - Meta tags use for SEO.
     - There `<img>` tag `alt=""` attribute must be use for SEO.
 
-<hr>
+---
 
 ### 5. Learn from w3schools for HTML tags
 - Learn there most important tags from w3schools. When you make a projects then you will learn and know to others HTML tags. Here is most important HTML Tags:
@@ -79,19 +79,19 @@
     - `<p>`
     - `<img>` - Single tags, Attributes tags
     - `<br>` - Single tags
-    - `<hr>` - Single tags
+    - `---` - Single tags
     - `<b>`
     - `<i>`
     - `<div>`
     - `<a>` - Attributes tags
 
-<hr>
+---
 
 ### 6. Block element and Inline element
 - `Block Element`: An inline element in HTML is an element that always starts on a new line. Most using block elements: `<div>. <p>, <h1> -> <h6>, <section>, <article>, <header>, <footer>, <nav>, <ul>, <ol>, <li>, <form> etc.`
 - `Inline Element`: An inline element in HTML is an element that does not start on a new line. Most using inline elements: `<span>, <a>, <strong>, <em>, <img>, <input>, <label>, <br>, <small>, <b>, <i> etc.`
 
-<hr>
+---
 
 ### 7. Formatting element
 - `<b>` - Bold text

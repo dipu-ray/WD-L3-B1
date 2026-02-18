@@ -6,7 +6,7 @@
 - HTML JavaScript and Others
 - CSS - Cascading Style Sheets
 
-<hr>
+---
 
 ### 1. HTML Forms
 - HTML Forms Elements:
@@ -23,7 +23,7 @@
     - `cols=""` - textarea width
     - `multiple` - Select multiple
 
-<hr>
+---
 
 ### 2. HTML Favicon and HTML Iframes
 - HTML Favicon:
@@ -37,7 +37,7 @@
     - `width=""`
     - `height=""`
 
-<hr>
+---
 
 ### 3. HTML JavaScript and Others
 - HTML JavaScript:
@@ -59,7 +59,7 @@
         - HTTPS - 443 port - Encrypted (SSL/TLS)
     - `HTML vs XHTML`
 
-<hr>
+---
 
 ### 4. CSS - Cascading Style Sheets
 - `CSS Home`

@@ -20,7 +20,7 @@
 
 ### 2. Learn and explore CSS
 - `CSS Color` - 140 color are supported.
-- `CSS Comments`
+- `CSS Comments` - `/* This is CSS comments */`
 - `CSS Background` -  CSS background color.
     - CSS background properties:
         - `background-color`
