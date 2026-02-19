@@ -34,4 +34,3 @@
 - CSS Units - `em, rem, %, smaller and larger`
 
 <!-- Syllabus short for Ramadan Month. Thank you! -->
-<!-- Project Link: https://themewagon.github.io/material/ -->
