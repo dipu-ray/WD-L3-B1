@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #364153;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.header-part {  
+    padding-top: 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 14px;
+}
