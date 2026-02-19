@@ -82,6 +82,22 @@ body {
     color: rgb(189, 190, 191)
 }
 
+.down-container {
+    margin-top: 80px;
+}
+
 .down-container img {
     width: 50px;
+}
+
+.down-container p {
+    color: #45556c;
+    font-size: 14px;
+}
+
+.down-container .down-images {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
