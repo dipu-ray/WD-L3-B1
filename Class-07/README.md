@@ -42,8 +42,3 @@
     - Extra large devices (large laptops and desktops, 1200px and up) - `@media only screen and (min-width: 1200px) {...}`.
 - Devices Range:
     - `@media screen and (min-width: 768px) and (max-width: 1023px) {...}`
-
----
-
-- Must be much priority css file when this css link in under of HTML file.
-- `https://poki.com/` - Free game server or web
