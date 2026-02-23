@@ -17,10 +17,18 @@
     - `right`
     - `bottom`
     - `up`
-- `mailto:abc@gmail.com` -  Direct go to Mail.
-- `tel:123456789` -  Direct go to phone number section.
-- `https://pleeease.iamvdo.me/` - Detect CSS properties and values.
-- `CSS Prefix` - Likes: `-ms-sticky, -ms-webkit`
+- `mailto:abc@gmail.com` -  Opens the user's default email client.
+- `tel:123456789` -  That allows users to initiate a phone call directly.
+- `https://pleeease.iamvdo.me/` - It is a CSS post-processor.
+- Vendor prefixes or browser prefixes:
+    - `-ms-` - Used for Internet Explorer and Edge (Microsoft).
+    - `-webkit-` - Used for Chrome, Safari, and Opera (WebKit/Blink engines).
+    - `-moz-` - Used for Firefox (Mozilla).
+    - `-o-` - Used for older versions of Opera.
+
+
+
+
 - `scroll-behavior: smooth;` - When use position.
 - `z-index: -1;` - Set background layer.
 - `z-index: 1;` - Set front layer.
