@@ -18,6 +18,8 @@
     - `bottom`
     - `up`
 - CSS properties:
+    - `overflow`
+    - `opacity`
     - `scroll-behavior`
     - `z-index`
     - `transition`
