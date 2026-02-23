@@ -119,13 +119,13 @@ header .main-container {
     padding: 3px;
 }
 
-.left-descriptions h1 {
+.left-descriptions .step-heading {
     font-size: 70px;
     font-weight: 800;
     margin: 15px 0;
 }
 
-.left-descriptions h1 .make-color {
+.left-descriptions .step-heading .make-color {
     color: var(--special-color);
 }
 
@@ -163,6 +163,40 @@ header .main-container {
 .left-descriptions .left-des-links .link2:hover {
     border: 2px solid var(--primary-color);
     background-color: var(--special-bg-color2);
+}
+
+.left-descriptions .three-div {
+    display: flex;
+    gap: 30px;
+    border-top: 1px solid var(--special-bg-color2);
+    padding-top: 30px;
+}
+
+.left-descriptions .three-div div .three-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.left-descriptions .three-div div .three-para {
+    font-size: 14px;
+    color: var(--special-color3);
+}
+
+.left-descriptions .three-div .make-hr {
+    width: 1px;
+    height: 50px;
+    background-color: var(--special-bg-color2);
+}
+
+.left-descriptions .three-div .heading-img {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.left-descriptions .three-div .heading-img img {
+    width: 20%;
 }
 
 .right-container {
