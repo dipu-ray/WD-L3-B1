@@ -2,65 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 body {
-    background: #4e73df;
+    height: 100vh;
+    background: #c9d1d0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.contact-container {
-    background: #ffffff;
-    padding: 30px 40px;
-    border-radius: 10px;
+.card {
+    width: 340px;
+    padding: 20px;
+    background: #c9d1d0;
+    border: 10px solid #e8edeb;
+    border-radius: 50px;
+    position: relative;
+}
+
+.social-links {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.card:hover .social-links {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-box {
     width: 100%;
-    max-width: 400px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.contact-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
+.image-box img {
+    width: 100%;
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    border-radius: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #111;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.verified {
+    background: #16a34a;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+.description {
+    margin-top: 12px;
     color: #555;
-}
-
-.input-group input,
-.input-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     font-size: 14px;
-    transition: 0.3s ease;
+    line-height: 1.6;
 }
 
-button {
+.stats {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.follow-btn {
+    margin-top: 20px;
     width: 100%;
     padding: 12px;
-    background: #4e73df;
     border: none;
-    border-radius: 5px;
-    color: white;
+    border-radius: 30px;
     font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
-    transition: 0.3s ease;
+    background: #e6ebef;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
 }
 
-button:hover {
-    background: #2e59d9;
+.follow-btn:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.126);
 }
