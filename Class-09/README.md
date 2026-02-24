@@ -39,7 +39,3 @@
 
 ### 3. CSS Box Model and CSS Outline
 - Abc
-
----
-
-- 
