@@ -58,6 +58,12 @@
         ```
     - `CSS Code`:
         ```
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -15px; /* Just for alignment */
+            margin-right: -15px; /* Just for alignment */
+        }
         /* Extra small devices (portrait phones, less than 576px) */
         .col-1 {
             flex: 0 0 8.333333%;
