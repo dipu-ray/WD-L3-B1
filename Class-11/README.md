@@ -114,3 +114,10 @@
             max-width: 100%;
         }
         ```
+        - There use media queries for every single devices for css grid layout.
+            - `xs: <576px (Extra small devices)`
+            - `sm: >=576px (Small devices)`
+            - `md: >=768px (Medium devices)`
+            - `lg: >=992px (Large devices)`
+            - `xl: >=1200px (Extra large devices)`
+            - `xxl: >=1400px (Extra extra large devices)`
