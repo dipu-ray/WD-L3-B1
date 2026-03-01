@@ -3,7 +3,7 @@
 ## Topics:
 - CSS Advanced
 - CSS 2D Transforms
-- 3D Transformation Element
+- CSS 3D Transforms
 
 ---
 
@@ -25,7 +25,13 @@
 ---
 
 ### 2. CSS 2D Transforms
+- CSS Transform Properties:
+    - `transform`
+    - `transform-origin`
+- CSS 2D Transform Functions:
 - `translate()`
+- `translateX()`
+- `translateY()`
 - `rotate()`
 - `scaleX()`
 - `scaleY()`
@@ -37,6 +43,22 @@
 
 ---
 
-### 3. 3D Transformation Element
-- `Perspective property`
-- `rotate3d(0, 0, 0, 100deg)`
+### 3. CSS 3D Transforms
+- CSS Transform Properties:
+    - `transform`
+    - `transform-origin`
+    - `transform-style`
+    - `perspective`
+    - `perspective-origin`
+    - `backface-visibility`
+- CSS 3D Transform Functions:
+    - `matrix3d()`
+    - `translate3d()`
+    - `translateZ()`
+    - `scale3d()`
+    - `scaleZ()`
+    - `rotate3d()`
+    - `rotateX()`
+    - `rotateY()`
+    - `rotateZ()`
+    - `perspective()`
