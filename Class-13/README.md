@@ -3,7 +3,7 @@
 ## Topics:
 - CSS Animations
 - CSS Tooltip
-- CSS Image Styling
+- CSS Styling Images
 - CSS Grid
 
 ---
@@ -83,14 +83,92 @@
 ---
 
 ### 2. CSS Tooltip
-- `Abc`
+- A CSS tooltip is used to specify extra information about something when the user moves the mouse pointer over an element:
+    - `Top`
+    - `Right`
+    - `Bottom`
+    - `Left`
+- Create a tooltip that appears when the user moves the mouse over an element:
+    ```
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+            cursor: pointer;
+        }
+        .tooltiptext {
+            visibility: hidden;
+            width: 130px;
+            background-color: black;
+            color: #ffffff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+        }
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+    <div class="tooltip">Hover over me
+        <span class="tooltiptext">Some tooltip text</span>
+    </div>
+    ```
 
 ---
 
-### 3. CSS Image Styling
-- `Abc`
+### 3. CSS Styling Images
+- Rounded Images
+- Thumbnail Images
+- Responsive Images
+- Polaroid Images / Cards
+- Responsive Image Gallery
+- CSS Image Opacity
+- Image Text Positioning
+- Image Hover Overlay
 
 ---
 
 ### 4. CSS Grid
-- `Abc`
+- `display: grid;`
+- `grid-template-columns`
+- `grid-template-rows`
+- `row-gap`
+- `column-gap`
+- Shorthand: `gap: 20px 10px; /* row-gap  column-gap */`
+- `grid-column-start`
+- `grid-column-end`
+- `grid-row-start`
+- `grid-row-end`
+- Shorthand:
+    ```
+    .item-1 {
+        grid-column: 1 / 3; /* start / end */
+        grid-row: 1 / 2;
+    }
+    ```
+- `grid-column`
+- `grid-row`
+- `grid-area`
+- Layout mapping with name:
+    ```
+    .container {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: 60px 1fr 50px;
+        grid-template-areas:
+        "header  header"
+        "sidebar content"
+        "footer  footer";
+        gap: 10px;
+        min-height: 100vh;
+    }
+    ```
+- `minmax()`
+- `auto-fill`
+- `auto-fit`
+- `grid-auto-rows`
+- `grid-auto-flow`
+- `object-fit`
