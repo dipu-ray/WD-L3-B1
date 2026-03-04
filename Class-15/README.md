@@ -38,6 +38,18 @@
     - `Navbar`
     - `Navs & tabs`
 
+---
+
+### 3. CSS Units
+- `px` - pixels (1px = 1/96th of 1in)
+- `%` - Relative to the parent element
+- `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)
+- `rem` - Relative to font-size of the root element
+- `vw` - Relative to 1% of the width of the viewport*
+- `vh` - Relative to 1% of the height of the viewport*
+- `vmin` - Relative to 1% of viewport's* smaller dimension
+- `vmax` - Relative to 1% of viewport's* larger dimension
+
 
 
 
