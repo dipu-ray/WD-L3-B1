@@ -1,0 +1,8 @@
+/* Product List Box Hover */
+.box-zoom {
+    transition: transform .3s ease;
+}
+
+.box-zoom:hover {
+    transform: scale(1.05);
+}

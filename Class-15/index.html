@@ -1,18 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Install</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 15 | Practices</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-4.0.0.min.js"></script>
-    <script src="js/main.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary bg-gradient py-3">
+            <div class="container-fluid container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" width="35" height="30"
+                        class="d-inline-block align-text-top" />
+                    Bootstrap
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tables
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SL No</a></li>
+                                <li><a class="dropdown-item" href="#">Name</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="#">Position</a></li>
+                                <li><a class="dropdown-item" href="#">Address</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-contaienr my-5">
+            <div class="container">
+                <div class="product-list">
+                    <h1>Product List:</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
+                        <div class="card h-100 box-zoom">
+                            <img src="images/ai.png" class="card-img-top w-100 object-fit-cover" style="height: 250px"
+                                alt="AI Image" />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary-emphasis">
+                                    Artificial Intelligence
+                                </h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tempora, delectus?
+                                </p>
+                                <a href="#" class="btn btn-dark">Learn more</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
+                        <div class="card h-100 box-zoom">
+                            <img src="images/webs.png" class="card-img-top w-100 object-fit-cover" style="height: 250px"
+                                alt="Website Image" />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary-emphasis">Web Services</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </p>
+                                <a href="#" class="btn btn-dark">Learn more</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 1 day ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
+                        <div class="card h-100 box-zoom">
+                            <img src="images/apps.png" class="card-img-top w-100 object-fit-cover" style="height: 250px"
+                                alt="Apps Image" />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary-emphasis">
+                                    Apps Services
+                                </h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Vitae nihil obcaecati dolores.
+                                </p>
+                                <a href="#" class="btn btn-dark">Learn more</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 1 sec ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
+                        <div class="card h-100 box-zoom">
+                            <img src="images/games.png" class="card-img-top w-100 object-fit-cover"
+                                style="height: 250px" alt="Games Image" />
+                            <div class="card-body">
+                                <h5 class="card-title text-primary-emphasis">
+                                    Games Services
+                                </h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Placeat minus perferendis, saepe possimus aliquid nesciunt?
+                                </p>
+                                <a href="#" class="btn btn-dark">Learn more</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 7 hours ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
