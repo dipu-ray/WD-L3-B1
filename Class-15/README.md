@@ -1,24 +1,43 @@
 ## Date: 04 March, 2026 - Wednesday
 
 ## Topics:
-- CSS Framework
+- Frontend Framework
 - Bootstrap Framework
 - CSS Units
 
 ---
 
 ### 1. CSS Framework
-- Bootstrap install process: Install with two way in html files. First CDN Second Download on your machine.
-- Bootstrap icon install process: Install with two way in html files. First CDN Second Download on your machine.
-- Font awesome icon install process: Install with two way in html files. First CDN Second Download on your machine.
-- Add JQuery Link: Add jquery link in your html footer or script src.
-- `CSS Foundation Framework` - Learn and get basic idea.
+- `Foundation Framework` - Learn and get basic idea.
 - `CSS Materialize Framework` - Learn and get basic idea.
-- `CSS Bootstrap Bootswatch Framework` - Learn and get basic idea.
 
 ---
 
 ### 2. Bootstrap Framework
+- `Bootstrap Install`: Install with two way in html files. First CDN Second Download on your machine.
+- `Bootstrap Icon Install`: Install with two way in html files. First CDN Second Download on your machine.
+- `Font-Awesome Icon Install`: Install with two way in html files. First CDN Second Download on your machine.
+- `Add JQuery Link`: Add jquery link in your html footer or script src.
+- This `four install` process example with code:
+    ```
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Component Install</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-4.0.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    </html>
+    ```
 - Layout:
     - `Breakpoints`
     - `Containers`
@@ -49,11 +68,3 @@
 - `vh` - Relative to 1% of the height of the viewport*
 - `vmin` - Relative to 1% of viewport's* smaller dimension
 - `vmax` - Relative to 1% of viewport's* larger dimension
-
-
-
-
-
-- CSS Units
-- `gy`- g means guttter, using in multiple card.
-- `start bootstrap` - This website for front end template
