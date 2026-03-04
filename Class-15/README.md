@@ -7,9 +7,12 @@
 
 ---
 
-### 1. CSS Framework
-- `Foundation Framework` - Learn and get basic idea.
-- `CSS Materialize Framework` - Learn and get basic idea.
+### 1. Frontend Framework
+- `Bootstrap` - Learn and to get `strong` idea.
+- `Foundation` - To get basic idea.
+- `Meteor` - To get basic idea.
+- `Ionic` - To get basic idea.
+- `Materialize` - To get basic idea.
 
 ---
 
