@@ -3,6 +3,7 @@
 ## Topics:
 - CSS Framework
 - Bootstrap Framework
+- CSS Units
 
 ---
 
@@ -41,8 +42,6 @@
 
 
 
-- `Tabler icon: https://tabler.io/icons/` - This for css icon alternative font awesome.
-- `JQuery: https://owlcarousel2.github.io/OwlCarousel2/` - This website for carousel develop or using.
 - CSS Units
 - `gy`- g means guttter, using in multiple card.
 - `start bootstrap` - This website for front end template
