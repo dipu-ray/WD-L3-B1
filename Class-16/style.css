@@ -9,7 +9,45 @@
 }
 
 body {
-    font-family: var(--noto-sans);
+    font-family: var(--noto-serif);
     font-size: 16px;
     font-weight: 400;
+    background-color: var(--secondary);
+}
+
+/* Pizza Icon Color */
+.p-color {
+    color: var(--primary);
+    font-size: 35px;
+}
+
+/* Pizza Text Logo */
+.h-logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    color: var(--text-black);
+    transition: all ease .4s;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--text-semi-black);
+}
+
+.n-btn {
+    background-color: var(--primary);
+    font-size: 18px;
+    transition: all ease .4s;
+}
+
+.n-btn:hover {
+    background-color: #e14c08;
+}
+
+/* Header Background Image */
+.bg-img {
+    background: url("images/banner.png");
 }
