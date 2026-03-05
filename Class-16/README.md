@@ -18,17 +18,20 @@ The purpose of this project is to develop my **Bootstrap framework** skills bett
 ---
 
 ## ✨ Features
-- Main navbar into sub navbar
-- Navbar social media links
+- Bootstrap Navbar
+- Make & Design Bootstrap Card
 - Dynamic content in main part
 
 ---
 
 ## 📂 Project Structure
 ```
-basic-websites/
+napoli-pizza-elite/
 │── images/
-    └── abc.png
+    └── avatar-1.png
+    └── avatar-2.png
+    └── avatar-3.png
+    └── banner.png
 │── index.html
 │── style.css
 
