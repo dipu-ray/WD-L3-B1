@@ -1,0 +1,15 @@
+:root {
+    --primary: #b84914;
+    --secondary: #fdf7f4;
+    --text-gray: #9c958b;
+    --text-semi-black: #4e3f37;
+    --text-black: #1b120e;
+    --noto-serif: "Noto Serif", serif;
+    --noto-sans: "Noto Sans", sans-serif;
+}
+
+body {
+    font-family: var(--noto-sans);
+    font-size: 16px;
+    font-weight: 400;
+}

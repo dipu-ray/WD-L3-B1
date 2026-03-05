@@ -1,9 +1,44 @@
-## Date: 04 March, 2026 - Wednesday
+## Date: 05 March, 2026 - Thursday
 
 ## Topics:
-- Abc
+- To make a Website
 
 ---
 
-### 1. Abc
-- `Abc`
+### 1. To make a Website
+- Today only just make a websites for practices in the classes.
+- Here is the project file: `index.html`
+
+---
+
+## 📌 Project Overview
+This is a website to develop with **Bootstrap**.  
+The purpose of this project is to develop my **Bootstrap framework** skills better.
+
+---
+
+## ✨ Features
+- Main navbar into sub navbar
+- Navbar social media links
+- Dynamic content in main part
+
+---
+
+## 📂 Project Structure
+```
+basic-websites/
+│── images/
+    └── abc.png
+│── index.html
+│── style.css
+
+```
+
+## 📸 Screenshot
+<p align="center">
+  <img src="" width="600" alt="">
+</p>
+
+---
+
+⭐ If you like this project, feel free to give it a star!
