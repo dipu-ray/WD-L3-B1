@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav class="navbar navbar-expand-lg bg-secondary bg-gradient py-3">
             <div class="container-fluid container">
                 <a class="navbar-brand" href="#">
@@ -25,28 +25,28 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="#product">Products</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#employee" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Tables
+                                Employee List
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">SL No</a></li>
-                                <li><a class="dropdown-item" href="#">Name</a></li>
+                                <li><a class="dropdown-item" href="#employee">SL No</a></li>
+                                <li><a class="dropdown-item" href="#employee">Name</a></li>
                                 <li>
                                     <hr class="dropdown-divider" />
                                 </li>
-                                <li><a class="dropdown-item" href="#">Position</a></li>
-                                <li><a class="dropdown-item" href="#">Address</a></li>
+                                <li><a class="dropdown-item" href="#employee">Position</a></li>
+                                <li><a class="dropdown-item" href="#employee">Address</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -59,10 +59,10 @@
     </header>
 
     <main>
-        <section class="product-contaienr my-5">
+        <section class="margin-y" id="product">
             <div class="container">
                 <div class="product-list">
-                    <h1>Product List:</h1>
+                    <h1 class="mb-4">Product List</h1>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6">
@@ -138,6 +138,79 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-y" id="employee">
+            <div class="container">
+                <h1 class="mb-4">Employee List</h1>
+                <table class="table table-striped table-hover">
+                    <tr>
+                        <th>SL</th>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Akash Ahmed</td>
+                        <td>Software Engineer</td>
+                        <td>Mirpur, Dhaka</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Siyam Ahmed</td>
+                        <td>System Engineer</td>
+                        <td>Uttara, Dhaka</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Raisul Islam</td>
+                        <td>Network Engineer</td>
+                        <td>Badda, Dhaka</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Hriday Ahmed</td>
+                        <td>Sr. System Engineer</td>
+                        <td>Uttara, Dhaka</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>Sujay Biswas</td>
+                        <td>Jr. System Engineer</td>
+                        <td>Nikunja 02, Dhaka</td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>Dipu Ray</td>
+                        <td>Sr. Software Engineer</td>
+                        <td>Mirpur, Dhaka</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="margin-y" id="contact">
+            <div class="container text-center">
+                <h1 class="mb-4">Contact Me</h1>
+                <div class="col-lg-4 offset-md-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
