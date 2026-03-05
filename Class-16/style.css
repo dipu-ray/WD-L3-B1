@@ -52,12 +52,26 @@ body {
 
 /* Header Background Image */
 .bg-img {
+    position: relative;
     background: url("images/banner.png") no-repeat scroll center center/cover;
     color: var(--secondary);
 }
 
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.bg-img * {
+    position: relative;
+    z-index: 2;
+}
+
 .p-y-axis {
-    padding: 250px 0;
+    padding: 220px 0;
 }
 
 .p-y-axis h1 {
@@ -70,3 +84,37 @@ body {
     font-size: 22px;
 }
 /* End Header Element Style */
+
+
+
+
+
+/* Start Main Element Style */
+.section-py {
+    padding: 100px 0;
+}
+
+.learn-card .bg {
+    background-color: #ff51000e;
+    width: 60px;
+    height: 60px;
+}
+
+.learn-card .bg span {
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.learn-card .card-body h5 {
+    font-size: 25px;
+}
+
+.learn-card .card-body p {
+    font-size: 20px;
+}
+
+.border-1 {
+    border: 1px solid #e14d0844;
+    box-shadow: 0 10px 10px -5px #230c0118;
+}
+/* End Main Element Style */
