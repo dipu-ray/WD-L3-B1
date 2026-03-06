@@ -17,7 +17,14 @@ body {
 
 /* Start Header Element Style */
 /* Pizza Icon Color */
-.p-color {
+.t-icon {
+    color: var(--primary);
+    font-size: 35px;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.t-icon2 {
     color: var(--primary);
     font-size: 35px;
 }
@@ -116,5 +123,12 @@ body {
 .border-1 {
     border: 1px solid #e14d0844;
     box-shadow: 0 10px 10px -5px #230c0118;
+    transition: all ease .4s;
+}
+
+.border-1:hover {
+    box-shadow: 0 10px 10px -5px var(--text-gray);
+    background-color: var(--secondary);
+    cursor: pointer;
 }
 /* End Main Element Style */
