@@ -20,7 +20,6 @@ p {
     font-size: 20px;
 }
 
-/* Pizza Icon Color */
 .t-icon {
     color: var(--primary);
     font-size: 35px;
@@ -33,7 +32,6 @@ p {
     font-size: 35px;
 }
 
-/* Pizza Text Logo */
 .h-logo {
     font-size: 30px;
     font-weight: 600;
@@ -105,6 +103,7 @@ p {
     padding: 100px 0;
 }
 
+/* Start Learn Section */
 .learn-card .bg {
     background-color: #ff51000e;
     width: 60px;
@@ -131,10 +130,13 @@ p {
     background-color: var(--secondary);
     cursor: pointer;
 }
+/* End Learn Section */
 
+/* Start History Section */
 .l-height {
     line-height: 40px;
 }
+/* End History Section */
 
 /* Start Feedback Section */
 .avatar-img {
@@ -157,5 +159,12 @@ p {
     font-size: 24px;
 }
 /* Start Feedback Section */
-
 /* End Main Element Style */
+
+
+
+
+
+/* Start Footer Element Style */
+
+/* End Footer Element Style */
