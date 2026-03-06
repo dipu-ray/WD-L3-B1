@@ -16,6 +16,10 @@ body {
 }
 
 /* Start Header Element Style */
+p {
+    font-size: 20px;
+}
+
 /* Pizza Icon Color */
 .t-icon {
     color: var(--primary);
@@ -116,10 +120,6 @@ body {
     font-size: 25px;
 }
 
-.learn-card .card-body p {
-    font-size: 20px;
-}
-
 .border-1 {
     border: 1px solid #e14d0844;
     box-shadow: 0 10px 10px -5px #230c0118;
@@ -131,4 +131,31 @@ body {
     background-color: var(--secondary);
     cursor: pointer;
 }
+
+.l-height {
+    line-height: 40px;
+}
+
+/* Start Feedback Section */
+.avatar-img {
+    width: 20%;
+    height: 20%;
+}
+
+.avatar-img img {
+    width: 100%;
+    border: 3px solid var(--primary);
+}
+
+.avatar-name span {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.f-star i {
+    color: var(--primary);
+    font-size: 24px;
+}
+/* Start Feedback Section */
+
 /* End Main Element Style */
