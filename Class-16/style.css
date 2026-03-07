@@ -69,7 +69,10 @@ p {
 .bg-img::before {
     content: "";
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
@@ -92,6 +95,7 @@ p {
 .p-y-axis p {
     font-size: 22px;
 }
+
 /* End Header Element Style */
 
 
@@ -130,12 +134,14 @@ p {
     background-color: var(--secondary);
     cursor: pointer;
 }
+
 /* End Learn Section */
 
 /* Start History Section */
 .l-height {
     line-height: 40px;
 }
+
 /* End History Section */
 
 /* Start Feedback Section */
@@ -158,6 +164,7 @@ p {
     color: var(--primary);
     font-size: 24px;
 }
+
 /* Start Feedback Section */
 /* End Main Element Style */
 
@@ -225,4 +232,122 @@ footer h4 {
 .copy-r p {
     font-size: 18px;
 }
+
 /* End Footer Element Style */
+
+
+
+
+
+/* Start Responsive Design */
+@media screen and (min-width: 993px) and (max-width: 1050px) {
+    .r-nav div a i,
+    span {
+        font-size: 28px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bg-img .p-y-axis {
+        padding: 50px 0;
+    }
+
+    .bg-img .p-y-axis h1 {
+        font-size: 50px;
+    }
+
+    .bg-img .p-y-axis p {
+        font-size: 16px;
+    }
+
+    .n-btn {
+        font-size: 15px !important;
+    }
+
+    .l-height {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .r-nav div a i,
+    span {
+        font-size: 20px !important;
+    }
+    .bg-img .p-y-axis {
+        padding: 60px 0;
+        padding-bottom: 60px;
+    }
+    .bg-img .p-y-axis h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .bg-img .p-y-axis p {
+        font-size: 16px;
+        padding: 10px 100px;
+    }
+
+    .n-btn {
+        font-size: 12px !important;
+    }
+
+    .learn-card {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .learn-card div h5 {
+        font-size: 20px !important;
+    }
+
+    .learn-card div p {
+        font-size: 14px;
+    }
+
+    .l-height {
+        font-size: 14px;
+        padding: 0 100px;
+    }
+
+    .a-container {
+        text-align: center;
+    }
+
+    .a-container .f-star i {
+        font-size: 16px !important;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+    .content span {
+        font-size: 16px !important;
+    }
+
+    footer section div .p-elite {
+        padding-left: 60px;
+    }
+
+    footer section div .q-links {
+        padding-left: 60px;
+    }
+
+    footer section div h4 {
+        font-size: 20px;
+    }
+
+    footer section div p, a {
+        font-size: 14px !important;
+    }
+
+    footer section .last-p {
+        font-size: 14px !important;
+        padding: 0 50px;
+    }
+}
+
+/* End Responsive Design */
