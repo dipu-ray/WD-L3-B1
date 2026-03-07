@@ -241,6 +241,7 @@ footer h4 {
 
 /* Start Responsive Design */
 @media screen and (min-width: 993px) and (max-width: 1050px) {
+
     .r-nav div a i,
     span {
         font-size: 28px !important;
@@ -270,14 +271,17 @@ footer h4 {
 }
 
 @media screen and (max-width: 590px) {
+
     .r-nav div a i,
     span {
         font-size: 20px !important;
     }
+
     .bg-img .p-y-axis {
         padding: 60px 0;
         padding-bottom: 60px;
     }
+
     .bg-img .p-y-axis h1 {
         font-size: 40px;
         line-height: 40px;
@@ -340,7 +344,8 @@ footer h4 {
         font-size: 20px;
     }
 
-    footer section div p, a {
+    footer section div p,
+    a {
         font-size: 14px !important;
     }
 
