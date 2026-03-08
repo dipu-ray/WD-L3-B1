@@ -14,9 +14,6 @@
 - `Cards`
 - `Carousel`
 
-
-
-
-
-- `https://swiperjs.com/` - This library is for slider or alternate bootstrap carousel. Most popular.
-- `https://owlcarousel2.github.io/OwlCarousel2/` - This library is for slider or alternate bootstrap carousel. open source popular.
+### Slider Libraries:
+- `https://swiperjs.com/` - This is the most popular websites.
+- `https://owlcarousel2.github.io/OwlCarousel2/` - This is a old version slider websites.
