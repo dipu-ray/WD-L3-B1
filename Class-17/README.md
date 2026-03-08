@@ -8,11 +8,14 @@
 ### 1. Bootstrap Components
 - `Accordion`
 - `Alerts`
+- `Badges`
 - `Breadcrumb`
 - `Buttons`
 - `Button group`
 - `Cards`
 - `Carousel`
+
+---
 
 ### Slider Libraries:
 - `https://swiperjs.com/` - This is the most popular websites.
