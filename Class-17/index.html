@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
     <title>Class 17 | Task in the class</title>
 </head>
 
 <body>
+    <!-- Setup HTML code -->
     <div class="owl-carousel">
         <div><img src="images/cat.jpg" alt=""></div>
         <div><img src="images/cat.jpg" alt=""></div>
@@ -21,6 +21,13 @@
         <div><img src="images/cat.jpg" alt=""></div>
     </div>
 
+    <!-- To add JQuery 3.x minified CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- To add js file -->
+    <script src="dist/owl.carousel.min.js"></script>
+
+    <!-- To active Carousel with JS -->
     <script>
         $(document).ready(function () {
             $('.owl-carousel').owlCarousel({
@@ -45,10 +52,6 @@
             })
         });
     </script>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 
 </html>
