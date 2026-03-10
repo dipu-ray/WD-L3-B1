@@ -1,0 +1,43 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --picto-color-primary: #9929fb;
+    --picto-color-primary-dark: #650fa0;
+    --color-soft-white: #f0f1f3;
+    --color-soft-dark: #87909d;
+    --font: 'Work Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    font-weight: 400;
+}
+
+.nav-container {
+    background-color: var(--color-soft-white);
+    box-shadow: 0 .5px 2px var(--color-soft-dark);
+}
+
+.logo {
+    background-color: var(--picto-color-primary);
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.l-heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.h-link {
+    color: black;
+    font-weight: 500;
+}
