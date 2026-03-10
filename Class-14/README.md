@@ -7,6 +7,7 @@
 
 ### 1. To make a Website
 - Today only just make a websites for practices in the classes.
+- Here is the project link: `https://themewagon.github.io/Charitize/` Or [Visit](https://themewagon.github.io/Charitize/)
 - Here is the project file: `index.html`
 
 ---
@@ -26,7 +27,7 @@ The purpose of this project is to develop my HTML and CSS coding skills better.
 
 ## 📂 Project Structure
 ```
-basic-websites/
+charitize/
 │── images/
     └── children.png
 │── index.html

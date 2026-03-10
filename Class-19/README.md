@@ -7,9 +7,7 @@
 
 ### 1. To make a Website
 - Today only just make a websites for practices in the classes.
-- Here is the project link:
-    - `https://themewagon.github.io/picto/`
-    - Or [Click On](https://themewagon.github.io/picto/)
+- Here is the project link: `https://themewagon.github.io/picto/` Or [Visit](https://themewagon.github.io/picto/)
 - Here is the project file: `index.html`
 
 ---
