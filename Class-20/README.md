@@ -37,7 +37,7 @@ image-card/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="" width="600" alt="">
+  <img src="./images/screenshot.png" width="600" alt="">
 </p>
 
 ---

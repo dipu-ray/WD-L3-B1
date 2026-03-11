@@ -1,34 +1,27 @@
-.container-bg {
-    margin-top: 50px;
-    width: 60%;
-    height: 60%;
-    position: relative;
+/* Custom Class */
+.h-10 {
+    height: 52rem;
 }
 
-.img {
-    width: 40%;
-    margin: 0 auto;
-    background-color: red;
+/* Main Parent Div */
+.my-card {
+    padding-top: 7rem !important;
 }
 
-.img img {
-    width: 100%;
-    
+/* Anchor Tag Class */
+.card-link {
+    text-decoration: none;
 }
 
-/*.container-bg .img img {
-    width: 100%;
-    background-color: rgb(116, 111, 111);
-}*/
-
-.container-bg .content {
-    padding: 20px;
-    position: absolute;
-    top: 93%;
-    left: 40%;
-    background-color: gray;
+.card-link i {
+    color: #9929fb;
+    display: inline;
+    padding: 10px 8px;
+    border-radius: 5px;
+    transition: all ease .3s;
 }
 
-.content .icons {
-    color: rgb(255, 4, 4);
+.card-link i:hover {
+    color: #fff;
+    background-color: #9929fb;
 }
