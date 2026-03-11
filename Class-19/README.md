@@ -37,8 +37,8 @@ picto-personal-portfolio/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="./images/screenshot.png" width="600" alt="Online Learning Platform Web Page Screenshot">
-  <img src="./images/screenshot2.png" width="600" alt="Online Learning Platform Web Page Screenshot">
+  <img src="./images/screenshot.png" width="600" alt="Portfolio ScreenShots">
+  <img src="./images/screenshot2.png" width="600" alt="Portfolio ScreenShots">
 </p>
 
 ---

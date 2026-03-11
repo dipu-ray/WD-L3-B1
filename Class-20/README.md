@@ -1,35 +1,35 @@
 ## Date: 11 March, 2026 - Wednesday
 
 ## Topics:
-- To make a Website
+- To make a Bootstrap Card
 
 ---
 
-### 1. To make a Website
-- Today only just make a websites for practices in the classes.
-- Here is the project link: `https://themewagon.github.io/picto/` Or [Visit](https://themewagon.github.io/picto/)
-- Here is the project file: `index.html`
+### 1. To make a Bootstrap Card
+- Today only just make a **Bootstrap Card** for practices in the classes.
+- Here is the Bootstrap Card design:
+  - <img src="./images/template.png" width="300" alt="Online Learning Platform Web Page Screenshot">
+- Here is my project file: `index.html`
 
 ---
 
 ## 📌 Project Overview
-To develop and making this websites using with **Bootstrap**.  
+To develop and deign this card using with **Bootstrap**.  
 The purpose of this project is to develop my Bootstrap skills better.
 
 ---
 
 ## ✨ Features
-- Dynamic multiples cards
-- Using different types of carousel
-- Contact form
+- Beautiful Image card
+- Image and Social Media Links
 
 ---
 
 ## 📂 Project Structure
 ```
-picto-personal-portfolio/
+image-card/
 │── images/
-    └── children.png
+    └── person.png
 │── index.html
 │── style.css
 
@@ -37,7 +37,7 @@ picto-personal-portfolio/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="" width="600" alt="Online Learning Platform Web Page Screenshot">
+  <img src="" width="600" alt="">
 </p>
 
 ---
