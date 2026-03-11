@@ -29,7 +29,7 @@ The purpose of this project is to develop my Bootstrap skills better.
 ```
 picto-personal-portfolio/
 │── images/
-    └── children.png
+    └── person.png
 │── index.html
 │── style.css
 
@@ -37,7 +37,8 @@ picto-personal-portfolio/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="" width="600" alt="Online Learning Platform Web Page Screenshot">
+  <img src="./images/screenshot.png" width="600" alt="Online Learning Platform Web Page Screenshot">
+  <img src="./images/screenshot2.png" width="600" alt="Online Learning Platform Web Page Screenshot">
 </p>
 
 ---
