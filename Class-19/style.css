@@ -344,7 +344,7 @@ p {
 
 /* Clients & Testimonial Section */
 .ct-container {
-    padding: 100px 0 600px;
+    padding: 100px 0 400px;
 }
 
 .ct-h-con {
@@ -365,4 +365,10 @@ p {
 /* Testimonial Container */
 .testimonial-container {
     margin-top: 20vh;
+}
+
+/* Container Section */
+.contact-background {
+    box-shadow: 0 0 50px 10px #87909d38;
+    padding: 90px 90px;
 }
