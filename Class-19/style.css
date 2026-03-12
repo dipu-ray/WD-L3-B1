@@ -45,7 +45,8 @@ body {
 }
 
 /* Navbar Links */
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: var(--white-color);
     background-color: var(--picto-color-primary);
 }
@@ -297,4 +298,71 @@ p {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 30px;
+}
+
+/* Blog Section */
+.blog-background {
+    background: radial-gradient(circle at -10% 0, #da4df166 1%, #0000 25%), radial-gradient(circle at 110% 30%, #c4f5e9b2 5%, #0000 25%);
+    padding: 100px 0;
+}
+
+.blog-cards {
+    border: none;
+    transition: all ease .3s;
+}
+
+.blog-cards:hover {
+    box-shadow: 0 30px 50px 1px var(--color-soft-white);
+}
+
+/* Services Section */
+.services-background {
+    background-color: var(--color-soft-white);
+    padding: 150px 0 120px;
+}
+
+.services-col h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.services-col p {
+    margin-bottom: 30px;
+}
+
+/* Services Right Cards */
+.sr-card {
+    transition: all ease .3s;
+    border: none;
+    border-left: 8px solid #ffffff00;
+}
+
+.sr-card:hover {
+    border-left: 8px solid var(--picto-color-primary);
+    box-shadow: 0 20px 20px 1px var(--color-soft-dark);
+}
+
+/* Clients & Testimonial Section */
+.ct-container {
+    padding: 100px 0 700px;
+}
+
+.ct-h-con {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.ct-swiper-container {
+    margin-top: 100px;
+}
+
+/* Happy Client Icons */
+.hc-icons i {
+    font-size: 5rem;
+}
+
+/* Testimonial Container */
+.testimonial-container {
+    margin-top: 20vh;
 }
