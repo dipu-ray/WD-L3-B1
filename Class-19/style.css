@@ -1,11 +1,16 @@
 :root {
     --black-color: #000;
     --white-color: #fff;
+    --color-gray: #101828;
     --picto-color-primary: #9929fb;
     --picto-color-primary-dark: #650fa0;
     --color-soft-white: #f0f1f3;
     --color-soft-dark: #87909d;
     --font: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -79,7 +84,6 @@ body {
 main .background {
     background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #da4df166 5%, #0000 30%), radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
     height: 175vh;
-    margin-bottom: 150px;
 }
 
 /* Home Section */
@@ -94,7 +98,7 @@ main .background {
 
 .home-container p {
     width: 85%;
-    font-size: 18px;
+    color: var(--black-color);
 }
 
 .home-container p span {
@@ -154,7 +158,7 @@ main .background {
     margin-bottom: 30px;
 }
 
-.about-content p {
+p {
     color: var(--color-soft-dark);
     font-size: 18px;
     width: 90%;
@@ -176,4 +180,121 @@ main .background {
 .download-btn:hover {
     color: var(--picto-color-primary);
     border: 1px solid var(--picto-color-primary);
+}
+
+/* Process Section */
+.process-section {
+    background-color: var(--color-soft-white);
+    padding-top: 16rem;
+    padding-bottom: 8rem;
+}
+
+.process-section .p-h1 {
+    font-size: 3rem;
+}
+
+.process-section .w-psm {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.wp-card {
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 50px -10px #e1e1e1;
+    transition: all ease .3s;
+}
+
+.wp-card:hover {
+    box-shadow: 0 10px 50px -20px var(--color-soft-dark);
+}
+
+.wp-card:hover .wp-mcard {
+    color: var(--white-color);
+    background-color: var(--picto-color-primary);
+}
+
+.wp-mcard {
+    width: 65px;
+    height: 65px;
+    background-color: #9929fb2e;
+    color: var(--picto-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    transition: all ease .3s;
+}
+
+.wp-mcard i {
+    font-size: 30px;
+}
+
+.wp-body p {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 30px !important;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    margin-bottom: 10vh;
+}
+
+.prt-cards {
+    transition: all ease .3s;
+}
+
+.prt-cards:hover {
+    box-shadow: 0 10px 10px 10px var(--color-soft-white);
+}
+
+.prt-content p {
+    font-size: 15px;
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+
+.prt-content span {
+    font-size: 12px;
+    color: var(--color-soft-dark);
+}
+
+.prt-content a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.prt-content a i {
+    transition: all ease .3s;
+}
+
+.prt-content a:hover {
+    color: var(--picto-color-primary);
+    border: 1px solid var(--picto-color-primary);
+}
+
+.prt-content a:hover i {
+    margin-left: 10px;
+}
+
+/* Project Idea Section */
+.pi-background {
+    background-color: var(--color-gray);
+    color: var(--white-color);
+    padding: 100px 0;
+}
+
+.pi-background div h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
