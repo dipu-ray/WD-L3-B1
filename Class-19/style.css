@@ -339,7 +339,7 @@ p {
 
 .sr-card:hover {
     border-left: 8px solid var(--picto-color-primary);
-    box-shadow: 0 20px 20px 1px var(--color-soft-dark);
+    box-shadow: 0 20px 20px 1px #87909d44;
 }
 
 /* Clients & Testimonial Section */

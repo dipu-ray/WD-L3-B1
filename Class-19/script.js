@@ -1,5 +1,5 @@
-// Navigation Swiper
-var swiper = new Swiper(".navigationSwiper", {
+// Slides per view
+var swiper = new Swiper(".slidesPerView", {
     slidesPerView: 4,
     spaceBetween: 30,
     pagination: {
@@ -8,21 +8,22 @@ var swiper = new Swiper(".navigationSwiper", {
     },
 });
 
-// Autoplay Swiper
-var swiper = new Swiper(".autoplaySwiper", {
+// Autoplay
+var swiper = new Swiper(".autoplay", {
     slidesPerView: 6,
     spaceBetween: 30,
     centeredSlides: false,
     autoplay: {
-        delay: 2500,
+        delay: 1000,
         disableOnInteraction: false,
     },
 });
 
-// Pagination Dynamic Swiper
-var swiper = new Swiper(".mySwiper", {
+// Space between
+var swiper = new Swiper(".spaceBetween", {
+    spaceBetween: 30,
     pagination: {
         el: ".swiper-pagination",
-        dynamicBullets: true,
+        clickable: true,
     },
 });
