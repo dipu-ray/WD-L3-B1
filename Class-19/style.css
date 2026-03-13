@@ -344,7 +344,7 @@ p {
 
 /* Clients & Testimonial Section */
 .ct-container {
-    padding: 100px 0 400px;
+    padding: 100px 0 200px;
 }
 
 .ct-h-con {
@@ -367,8 +367,48 @@ p {
     margin-top: 20vh;
 }
 
-/* Container Section */
+/* Contact Section */
 .contact-background {
     box-shadow: 0 0 50px 10px #87909d38;
     padding: 90px 90px;
+    margin-top: 100px !important;
+}
+
+/* Address, Mail and Call Section */
+.c-card {
+    transition: all ease .3s;
+}
+
+.c-card:hover {
+    box-shadow: 0 0 50px 10px #87909d38;
+}
+
+/* Address, Mail and Call Icons BG */
+.c-card:hover .ci-bg {
+    background-color: var(--picto-color-primary);
+    color: var(--white-color);
+}
+
+.ci-bg {
+    background-color: #9929fb2e;
+    color: var(--picto-color-primary);
+    transition: all ease .3s;
+}
+
+.add-fs {
+    font-size: 14px;
+}
+
+/* Social Media Icons Bar */
+.cicon-bar i {
+    width: 45px;
+    height: 52px;
+    color: var(--picto-color-primary);
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.cicon-bar i:hover {
+    background-color: var(--picto-color-primary);
+    color: var(--white-color);
 }

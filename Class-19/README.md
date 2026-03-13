@@ -29,8 +29,12 @@ The purpose of this project is to develop my Bootstrap skills better.
 ```
 picto-personal-portfolio/
 │── images/
+    └── blog
+    └── portfolio
+    └── screenshot
     └── person.png
 │── index.html
+│── script.js
 │── style.css
 
 ```
