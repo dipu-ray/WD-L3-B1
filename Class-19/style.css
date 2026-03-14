@@ -434,6 +434,17 @@ p {
     color: var(--white-color);
 }
 
+.form-control:focus {
+    border: 2px solid;
+    border-color: var(--picto-color-primary);
+    box-shadow: none;
+    color: var(--picto-color-primary);
+}
+
+.form-control:focus + label {
+    color: var(--picto-color-primary);
+}
+
 /* Footer Section */
 .footer-background {
     background-color: #2a374a;
