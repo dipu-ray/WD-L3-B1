@@ -344,7 +344,7 @@ p {
 
 /* Clients & Testimonial Section */
 .ct-container {
-    padding: 100px 0 850px;
+    padding: 100px 0 900px;
 }
 
 .ct-h-con {
@@ -376,7 +376,7 @@ p {
 
 .position-ab {
     position: absolute;
-    top: 60%;
+    top: 53%;
     left: 10%;
 }
 
