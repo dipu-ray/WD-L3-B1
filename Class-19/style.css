@@ -347,10 +347,8 @@ p {
     padding: 100px 0 900px;
 }
 
-.ct-h-con {
-    h1 {
-        font-size: 3rem;
-    }
+.ct-h-con h1 {
+    font-size: 3rem;
 }
 
 .ct-swiper-container {
@@ -423,4 +421,8 @@ p {
 .footer-background {
     background-color: #2a374a;
     padding: 100px 0 40px;
+}
+
+.footer-links:hover {
+    text-decoration: underline !important;
 }
