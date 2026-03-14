@@ -135,6 +135,29 @@ main .background {
     font-weight: 600;
 }
 
+/* Scroll Button on Display */
+.scroll-btn {
+    top: 90%;
+    left: 93%;
+}
+
+.scroll-btn-link {
+    background-color: var(--picto-color-primary);
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 20px 20px;
+    border-radius: 5px;
+    transition: all ease .6s;
+}
+
+.scroll-btn-link:hover {
+    background-color: var(--picto-color-primary-dark);
+    color: var(--white-color);
+    padding: 25px 25px;
+}
+
 /* About Section */
 .about-section {
     background-color: var(--white-color);
@@ -344,7 +367,7 @@ p {
 
 /* Clients & Testimonial Section */
 .ct-container {
-    padding: 100px 0 900px;
+    padding: 100px 0 100px;
 }
 
 .ct-h-con h1 {
@@ -370,12 +393,6 @@ p {
     box-shadow: 0 0 50px 10px #87909d38;
     padding: 90px 90px;
     margin-top: 100px !important;
-}
-
-.position-ab {
-    position: absolute;
-    top: 53%;
-    left: 10%;
 }
 
 /* Address, Mail and Call Section */
