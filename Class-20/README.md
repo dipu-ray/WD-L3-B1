@@ -37,7 +37,9 @@ image-card/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="./images/screenshot.png" width="600" alt="">
+  <img src="./images/phone-r.png" width="300" alt="Phone Responsive Design Screenshot">
+  <img src="./images/tablet-r.png" width="300" alt="Tablet Responsive Design Screenshot">
+  <img src="./images/laptop-r.png" width="300" alt="Laptop or Desktop Responsive Design Screenshot">
 </p>
 
 ---
