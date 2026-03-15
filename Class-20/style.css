@@ -1,11 +1,55 @@
-.card-section {
-    height: 90vh;
+/* Container Section */
+.container-section {
+    height: 100vh;
 }
 
+/* Image Element using class */
 .image {
     background-color: #f0f1f3;
 }
 
+/* Links Section */
+.card-links {
+    height: 5rem;
+    width: 65%;
+    top: 94%;
+    background-color: #fff;
+    box-shadow: 0 15px 50px 5px #c8c8c8;
+}
+
+.card-links a {
+    text-decoration: none;
+}
+
 .card-links a i{
-    background-color: yellow;
+    display: inline;
+    padding: 20px 17px;
+    border-radius: 5px;
+    color: #9929fb;
+    font-size: 1.2rem;
+    transition: all ease .6s;
+}
+
+.card-links a i:hover {
+    background-color: #9929fb;
+    color: #f0f1f3;
+}
+
+/* Responsive For Mobile Devices */
+@media (max-width: 450px) {
+    .card-links {
+        width: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-links {
+        width: 80%;
+    }
+}
+
+@media (max-width: 350px) {
+    .card-links {
+        width: 99%;
+    }
 }
