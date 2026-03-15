@@ -1,27 +1,7 @@
-/* Custom Class */
-.h-10 {
-    height: 52rem;
+body {
+    height: 100vh;
 }
 
-/* Main Parent Div */
-.my-card {
-    padding-top: 7rem !important;
-}
-
-/* Anchor Tag Class */
-.card-link {
-    text-decoration: none;
-}
-
-.card-link i {
-    color: #9929fb;
-    display: inline;
-    padding: 10px 8px;
-    border-radius: 5px;
-    transition: all ease .3s;
-}
-
-.card-link i:hover {
-    color: #fff;
-    background-color: #9929fb;
+.img {
+    width: 100%;
 }
