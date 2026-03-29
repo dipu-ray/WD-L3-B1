@@ -6,6 +6,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 /* Navbar logo icon color */
 .nav-logo {
     color: blue;
