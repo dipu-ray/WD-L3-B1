@@ -1,6 +1,6 @@
-## Date: 29 March, 2026 - Sunday
+## 🗓️ Date: 29 March, 2026 - Sunday
 
-## Topics:
+## 📚 Topics:
 
 - Recap previous HTML, CSS & Bootstrap
 - Make a header section with Bootstrap
@@ -59,7 +59,7 @@
   - `index.html`
   - `style.css`
 
-### Screenshots:
+## 📸 Screenshots:
 
 <p align="center">
   <h4>1. Phone Screen:</h4>
