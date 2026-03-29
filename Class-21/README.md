@@ -7,9 +7,3 @@
 
 ### 1. Recap previous HTML, CSS & Bootstrap
 - 
-
----
-
-- JS Plugins:
-    - `istop`
-    - `mixitup`
