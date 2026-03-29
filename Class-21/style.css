@@ -1,23 +1,46 @@
-.nav-logo {
-    font-size: 1.8rem;
+* {
+    text-decoration: none !important;
 }
 
-.nav-logo i {
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar logo icon color */
+.nav-logo {
     color: blue;
 }
 
-.nav-logo .logo-name {
-    font-weight: 700;
+/* Navbar middle links */
+.nav-mid-links li a {
+    font-size: .95rem;
+    font-weight: 500;
+    transition: ease all .4s;
 }
 
-.nav-ul li a:hover {
-    color: blue !important;
+.nav-mid-links li a:hover {
+    color: blue;
 }
 
+/* Navbar right side button */
+.talk-btn {
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all .4s;
+}
+
+.talk-btn:hover {
+    background-color: #0000ffb0;
+}
+
+/* Main left side container */
 .intro-section .hello {
     color: blue;
     font-weight: 600;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .intro-section h1 {
@@ -39,37 +62,72 @@
 .intro-section .work-btn {
     color: white;
     background-color: blue;
-    font-weight: 700;
-    padding: 18px 20px;
-    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 30px;
     border-radius: 50px;
+    transition: all .4s;
+}
+
+.intro-section .work-btn i {
+    margin-left: 10px;
+}
+
+.intro-section .work-btn:hover {
+    background-color: #0000ffb0;
 }
 
 .intro-section .github-btn {
     color: black;
     border: 1px solid blue;
-    font-weight: 700;
-    padding: 18px 20px;
-    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 30px;
     border-radius: 50px;
     margin-left: 10px;
+    transition: ease-in all .4s;
 }
 
-.img-div {
+.intro-section .github-btn i {
+    margin-right: 10px;
+}
+
+.intro-section .github-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Main right side image container */
+.card {
+    position: absolute;
     bottom: 0;
     left: 0;
-    background-color: rgba(231, 231, 231, 0.205);
-    border-radius: 50px;
-    padding: 5px 20px;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.308);
     animation: upDown 1s linear alternate infinite;
 }
 
+.card .icon {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card .content {
+    line-height: 5px;
+}
+
+/* Animation to image container mini section */
 @keyframes upDown {
     from {
-        bottom: 20px;
+        bottom: 60px;
     }
     to {
-        bottom: 0;
+        bottom: 20px;
     }
 }
