@@ -19,3 +19,15 @@
 <div>Class-08: CSS Position</div>
 <div>Class-09: CSS Pseudo-classes, Pseudo-Elements, Gradients, Box Model and Outline</div>
 <div>Class-10: CSS Flexbox</div>
+<div>Class-11: CSS Media Queries and Grid Layout</div>
+<div>Class-12: CSS Advanced, 2D Transforms and 3D Transforms</div>
+<div>Class-13: CSS Animations, Tooltip, Styling Images and Grid</div>
+<div>Class-14: Make a Website using CSS</div>
+<div>Class-15: Frontend Frameworks, Bootstrap and CSS Units</div>
+<div>Class-16: Make a Website using Bootstrap</div>
+<div>Class-17: Bootstrap Components</div>
+<div>Class-18: Bootstrap Components, Forms, Helpers and Utilities</div>
+<div>Class-19: Make a Website using Bootstrap</div>
+<div>Class-20: Make a Card using Bootstrap</div>
+<div>Class-21: Recap previous HTML, CSS, Bootstrap and Make a Website using Bootstrap</div>
+<div>Class-22: Basic JavaScript and Syntax</div>
