@@ -50,8 +50,6 @@
     | / | Division | x / y |
     | % | Modulus | x % y |
 
-<br>
-
 - **Assignment Operators:**
     | Operator | Description | Example |
     | -------- | -------- | -------- |
@@ -62,15 +60,11 @@
     | /= | Divide and assign quotient | x /= y |
     | %= | Divide and assign modulus | x %= y |
 
-<br>
-
 - **String Operators:**
     | Operator | Description | Example |
     | -------- | -------- | -------- |
     | + | Concatenation | str1 + str2 |
     | += | Concatenation assignment | str1 += str2 |
-
-<br>
 
 - **Incrementing and Decrementing Operators:**
     | Operator | Name | Effect |
@@ -80,8 +74,6 @@
     | --x | Pre-decrement | Decrements x by one, then returns x |
     | x-- | Post-decrement | Returns x, then decrements x by one |
 
-<br>
-
 - **Logical Operators:**
     | Operator | Name | Example |
     | -------- | -------- | -------- |
@@ -89,8 +81,6 @@
     | OR | Or | x OR y |
     | ! | Not | !x |
     - `||` -> OR
-
-<br>
 
 - **Comparison Operators:**
     | Operator | Name | Example |
