@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class 22 | Task in the class</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- Inline JS -->
+    <button onclick="alert('Hello World!')">Alert</button>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- This tag control with external js -->
+    <h2 id="heading2"></h2>
+    <span id="text"></span>
+    <br>
+    <h2 id="demo1"></h2>
+    <p id="demo2"></p>
+
+    <!-- myFunction will work when click this button -->
+    <button type="button" onclick="myFunction()">Click On</button>
+
+    <!-- Internal JS -->
+    <script>
+        function sayHello() {
+            // This print show in web console
+            console.log("Hello from Internal JS!");
+        }
+        sayHello();
+    </script>
+
+    <!-- To add external js file -->
+    <script src="script.js"></script>
 </body>
 
 </html>
