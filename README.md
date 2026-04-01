@@ -31,3 +31,5 @@
 <div>Class-20: Make a Card using Bootstrap</div>
 <div>Class-21: Recap previous HTML, CSS, Bootstrap and Make a Website using Bootstrap</div>
 <div>Class-22: Basic JavaScript and Syntax</div>
+<div>Class-23: JS Variable, Operators and Conditions</div>
+<div>Class-24: JS Loops</div>
