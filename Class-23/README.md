@@ -51,14 +51,14 @@
     | % | Modulus | x % y |
 
 - **Assignment Operators:**
-    | Operator | Description | Example |
-    | -------- | -------- | -------- |
-    | = | Assign | x = y |
-    | += | Add and assign | x += y |
-    | -= | Subtract and assign | x -= y |
-    | *= | Multiply and assign | x *= y |
-    | /= | Divide and assign quotient | x /= y |
-    | %= | Divide and assign modulus | x %= y |
+    | Operator | Description | Example | Same As |
+    | -------- | -------- | -------- | -------- |
+    | = | Assign | x = y | x = y |
+    | += | Add and assign | x += y | x = x + y |
+    | -= | Subtract and assign | x -= y | x = x - y |
+    | *= | Multiply and assign | x *= y | x = x * y |
+    | /= | Divide and assign quotient | x /= y | x = x / y |
+    | %= | Divide and assign modulus | x %= y | x = x % y |
 
 - **String Operators:**
     | Operator | Description | Example |
