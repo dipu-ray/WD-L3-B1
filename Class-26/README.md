@@ -168,8 +168,3 @@
     console.log(user);
     // Output: { name: "Arif", age: 25 }
     ```
-
----
-
-- `https://scrimba.com/` - Learning platform with video with code.
-- `async/await javascript` - Clear those concept before jump to ReactJS.
