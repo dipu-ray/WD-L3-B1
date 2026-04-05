@@ -34,3 +34,4 @@
 <div>Class-23: JS Variable, Operators and Conditions</div>
 <div>Class-24: JS Loops</div>
 <div>Class-25: JS Functions</div>
+<div>Class-26: JS Arrays and JS Objects</div>
