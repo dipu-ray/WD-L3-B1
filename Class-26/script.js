@@ -1,4 +1,7 @@
 // JavaScript Arrays
+document.write(
+    "<h2>JavaScript Arrays</h2> <hr>"
+);
 
 // Creating arrays
 let colors = ["Red", "Green", "Blue"]; 
@@ -70,4 +73,72 @@ document.write("<b>Searching index with element from fruits array:</b> <br>");
 document.write("Fruits: " + fruits + "<br>");
 document.write("Apple index: " + fruits.indexOf("Apple") + "<br>");
 document.write("Banana index: " + fruits.indexOf("Banana") + "<br>");
-document.write("Pineapple index: " + fruits.indexOf("Pineapple") + "<br>");
+document.write("Pineapple index: " + fruits.indexOf("Pineapple") + "<br><br><br><br><br>");
+
+
+
+
+
+// JavaScript Objects
+document.write(
+    "<h2>JavaScript Objects</h2> <hr>"
+);
+
+// Accessing object's properties
+document.write("<b>Accessing object's properties:</b> <br>");
+let book = {
+    "name": "Harry Potter and the Goblet of Fire",
+    "author": "J. K. Rowling",
+    "year": 2000
+};
+document.write(book.author + "<br>");
+document.write(book["year"] + "<br><br><br>");
+
+// Looping through object's properties
+document.write("<b>Looping through object's properties:</b> <br>");
+for(let i in book) {  
+    document.write(book[i] + "<br>");
+}
+document.write("<br><br>");
+
+
+// Setting object's properties
+document.write("<b>Setting object's properties:</b> <br>");
+let person2 = {
+    names: "Peter",
+    age: 28,
+    gender: "Male"
+};
+
+// Print Before Setting Objects
+document.write("Before Setting Objects: <br>");
+for(let i in person2) {  
+    document.write(person2[i] + "<br>");
+}
+document.write("<br>");
+
+// Setting a new property
+person2.country = "United States";
+document.write(person2.country + "<br>");
+person2["email"] = "peterparker@mail.com";
+document.write(person2.email + "<br>");
+
+// Updating existing property
+person2.age = 30;
+document.write(person2.age + "<br>");
+person2["names"] = "Peter Parker";
+document.write(person2.names + "<br><br>");
+
+// Print After Setting Objects
+document.write("After Setting Objects: <br>");
+for(let i in person2) {  
+    document.write(person2[i] + "<br>");
+}
+document.write("<br><br>");
+
+
+// Deleting object's properties
+document.write("<b>Deleting object's properties:</b> <br>");
+document.write("Before Delete: " + person2.age + "<br>");
+delete person2.age;
+document.write("After Delete: " + person2.age + "<br><br>");
