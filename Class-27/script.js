@@ -12,10 +12,10 @@ function render() {
         div.innerHTML = `
         <span>${item}</span>
         <div class="actions">
-          <button class="edit-btn" onclick="editItem(${index})">Edit</button>
-          <button class="delete-btn" onclick="deleteItem(${index})">Delete</button>
+            <button class="edit-btn" onclick="editItem(${index})">Edit</button>
+            <button class="delete-btn" onclick="deleteItem(${index})">Delete</button>
         </div>
-      `;
+    `;
 
         list.appendChild(div);
     });
@@ -42,6 +42,7 @@ function editItem(index) {
     const input = document.getElementById('inputText');
     input.value = items[index];
     editIndex = index;
+    input.focus();
 }
 
 function deleteItem(index) {
