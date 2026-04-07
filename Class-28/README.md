@@ -6,7 +6,11 @@
 
 ---
 
-### 1. jQuery
+# jQuery
+
+---
+
+## jQuery — Essential Reference
 
 > **jQuery** simplifies DOM manipulation, events, animations, and AJAX with a short, cross-browser API.
 
@@ -14,14 +18,19 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 ```
 
-- **Ready:**
-    ```js
-    $(function () {
-    // DOM is ready — always wrap your code here
-    })
-    ```
+---
 
-- **Selecting Elements:**
+## 1. Ready
+
+```js
+$(function () {
+  // DOM is ready — always wrap your code here
+})
+```
+
+---
+
+## 2. Selecting Elements
 
 ```js
 $('#myId')               // by ID
