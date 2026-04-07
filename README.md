@@ -36,3 +36,4 @@
 <div>Class-25: JS Functions</div>
 <div>Class-26: JS Arrays and JS Objects</div>
 <div>Class-27: JS DOM</div>
+<div>Class-28: jQuery</div>
