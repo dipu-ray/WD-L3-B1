@@ -1,4 +1,5 @@
 # JavaScript Quiz - 25
+
 ### 1. What is JavaScript?
 A. Programming Language  
 B. Markup Language  
