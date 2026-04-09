@@ -4,51 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 30 | Responsive Navbar</title>
-
-    <!-- Google poppins fonts link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-
+    <title>Responsive Navbar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar">
-            <!-- Navbar logo -->
-            <div class="logo">
-                <a href="">
-                    <i class="fa-solid fa-house"></i>
-                </a>
-            </div>
 
-            <!-- Navbar middle links -->
-            <div class="m-links">
-                <ul>
-                    <li><a href="#x">Features</a></li>
-                    <li><a href="#x">Product Guide</a></li>
-                    <li><a href="#x">Templates</a></li>
-                    <li><a href="#x">Pricing</a></li>
-                    <li><a href="#x">Enterprise</a></li>
-                </ul>
-            </div>
+    <nav class="navbar">
+        <!-- Hamburger Menu (Mobile) - Moved to left -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
 
-            <!-- Navbar right links -->
-            <div class="r-links">
-                <ul>
-                    <li><a class="get-in-btn" href="#x">Get it free</a></li>
-                    <li><a class="sign-in-btn" href="#x">Sign in</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <!-- Left: Logo -->
+        <div class="nav-logo">
+            <a href="#">MyBrand</a>
+        </div>
+
+        <!-- Center: Menu Items -->
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+
+            <!-- CTA Button inside menu for mobile -->
+            <li class="nav-item nav-cta-mobile">
+                <a href="#" class="cta-button">Get Started</a>
+            </li>
+        </ul>
+
+        <!-- Right: CTA Button (Desktop) -->
+        <div class="nav-cta">
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Dummy content to show navbar effect -->
+    <section class="hero">
+        <h1>Welcome to MyBrand</h1>
+        <p>A simple responsive navbar example using HTML, CSS & JavaScript.</p>
+    </section>
 
     <script src="script.js"></script>
 </body>
