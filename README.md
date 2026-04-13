@@ -38,4 +38,5 @@
 <div>Class-27: JS DOM</div>
 <div>Class-28: jQuery</div>
 <div>Class-29: Quiz's HTML, CSS, Bootstrap, JavaScript and jQuery in W3Schools</div>
-<div>Class-30: Make Navbar with RAW CSS and RAW JavaScript</div>
+<div>Class-30: Make Navbar with RAW CSS and Vanilla JavaScript</div>
+<div>Class-31: Make Vertical Timeline Bar with RAW HTML and CSS</div>
