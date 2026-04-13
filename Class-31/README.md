@@ -2,12 +2,15 @@
 
 ## Topics:
 
-- Timeline bar
+- Make Vertical Timeline Bar with RAW HTML and CSS
 
 ---
 
-### 1. Timeline bar
+### 1. Make Vertical Timeline Bar with RAW HTML and CSS
 
-- `display: table;` - new value for me
-- `clear: both;` - use for float property
-- `https://startbootstrap.com/previews/agency` - Web link or templates link
+- Here is the files and project structures:
+    ```
+    ├── vertical-timeline-bar/
+    │   └── index.html
+    │   └── style.css
+    ```
