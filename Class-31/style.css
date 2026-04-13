@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timeline-section {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 60px;
+}
+
+/* টাইমলাইন মেইন কন্টেইনার */
+.timeline {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* মাঝখানের ভার্টিকাল লাইন */
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background: #dee2e6;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* গ্রিড লেআউট সেটআপ */
+.timeline-item {
+    display: grid;
+    grid-template-columns: 1fr 160px 1fr;
+    /* বাম কলাম, মাঝখানের ছবি, ডান কলাম */
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ইমেজের স্টাইল */
+.timeline-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 7px solid #dee2e6;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* টেক্সট পজিশনিং */
+.timeline-content {
+    padding: 20px;
+}
+
+/* বাম পাশের আইটেমের টেক্সট */
+.timeline-item.left .timeline-content {
+    text-align: right;
+    grid-column: 1;
+    /* প্রথম কলামে থাকবে */
+}
+
+/* ডান পাশের আইটেমের টেক্সট */
+.timeline-item.right .timeline-content {
+    text-align: left;
+    grid-column: 3;
+    /* তৃতীয় কলামে থাকবে */
+}
+
+/* টাইপোগ্রাফি */
+.timeline-content h3 {
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.timeline-content h4 {
+    margin: 5px 0 15px;
+    font-size: 24px;
+    color: #212529;
+}
+
+.timeline-content p {
+    color: #6c757d;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* মোবাইল রেসপন্সিভ (খুবই সহজ) */
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 40px;
+    }
+
+    .timeline-item {
+        grid-template-columns: 80px 1fr;
+        /* ছবি এবং টেক্সট পাশাপাশি */
+        text-align: left !important;
+    }
+
+    .timeline-item.left .timeline-content,
+    .timeline-item.right .timeline-content {
+        grid-column: 2;
+        text-align: left;
+    }
+
+    .timeline-img {
+        width: 80px;
+        height: 80px;
+        grid-column: 1;
+        border-width: 4px;
+    }
+
+    .empty-space {
+        display: none;
+    }
+}
