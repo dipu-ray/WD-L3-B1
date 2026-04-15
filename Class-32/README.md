@@ -20,11 +20,18 @@
 ### 2. Make resume with MS Word
 
 - Here is resume demo:
-  <img src="./images/resume-demo.png" width="300">
+    <p align="left">
+        <img src="./images/resume-demo.png" width="300">
+    </p>
 
 - Here is resume templates:
-  <img src="./images/resume.png" width="300">
-  - [Resume Video Link - Click here](https://resumesector.com/best-resume-template/)
+    <p align="left">
+        <img src="./images/resume.png" width="300">
+    </p>
+
+    - [Resume Video Link - Click here](https://resumesector.com/best-resume-template/)
 
 - This is a **ATS Resume**:
-  <img src="./images/ats-resume.png" width="300">
+    <p align="left">
+        <img src="./images/ats-resume.png" width="300">
+    </p>
