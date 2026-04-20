@@ -41,3 +41,6 @@
 <div>Class-30: Make Navbar with RAW CSS and Vanilla JavaScript</div>
 <div>Class-31: Make Vertical Timeline Bar with RAW HTML and CSS</div>
 <div>Class-32: Recap Quiz's and Make resume with MS Word</div>
+<div>Class-33: Make Modern Digital Clock with JS</div>
+<div>Class-34: Make Premium Countdown Timer with JS</div>
+<div>Class-35: Make Neon Emerald Stopwatch with JS</div>
