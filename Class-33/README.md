@@ -4,12 +4,6 @@
 
 Make this project with Raw HTML5, Raw CSS3 and Vanilla JavaScript.
 
-## 🚀 Live Preview
-
-- **Real-Time Display:** High-accuracy time tracking.
-- **Colorful UI:** Frosted glass effect with CSS backdrop filters.
-- **Responsive:** Works perfectly on mobile, tablet, and desktop.
-
 ## 🛠️ Tech Stack
 
 - **HTML5:** Semantic structure.
@@ -25,3 +19,13 @@ modern-digital-clock/
 └── script.js           # JavaScript program
 └── style.css           # CSS code
 ```
+
+## 🚀 Live Preview
+
+- **Real-Time Display:** High-accuracy time tracking.
+- **Colorful UI:** Frosted glass effect with CSS backdrop filters.
+- **Responsive:** Works perfectly on mobile, tablet, and desktop.
+
+## 🖼️ Preview
+
+<img src="./screenshot/project-screenshot.png" alt="Clock Preview" width="600">
