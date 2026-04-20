@@ -46,6 +46,7 @@ h2 {
     gap: 20px;
 }
 
+/* The box's design */
 .time-box {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
@@ -62,6 +63,7 @@ h2 {
     border-color: var(--accent);
 }
 
+/* The numbers value are white */
 .number {
     display: block;
     font-size: 3.5rem;
@@ -82,6 +84,7 @@ h2 {
     font-weight: bold;
 }
 
+/* This style for JS */
 .finished-msg {
     font-size: 2rem;
     background: linear-gradient(to right, #ff416c, #ff4b2b);

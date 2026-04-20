@@ -1,10 +1,10 @@
 window.addEventListener('DOMContentLoaded', function () {
     const targetDate = new Date('2026-04-28T00:00:00').getTime();
 
+    // Update timer function
     const updateTimer = () => {
         const now = new Date().getTime();
         const diff = targetDate - now;
-
         if (diff <= 0) {
             document.getElementById('count_down').innerHTML = "<p class='finished-msg'>THE WAIT IS OVER!</p>";
             document.getElementById('title').style.display = 'none';
