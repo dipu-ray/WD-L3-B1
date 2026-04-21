@@ -6,11 +6,24 @@
 
 ---
 
-### 1. Make Vertical Timeline Bar with RAW HTML and CSS
+# Vertical Timeline Bar
 
-- Here is the files and project structures:
-    ```
-    ├── vertical-timeline-bar/
-    │   └── index.html
-    │   └── style.css
-    ```
+Make this project with Raw HTML5, Raw CSS3.
+
+## 🛠️ Tech Stack
+
+- **HTML5:** Semantic structure.
+- **CSS3:** Flex-box and grid system.
+
+## 📂 Project Structure
+
+```text
+vertical-timeline-bar/
+├── README.md           # Project documentation
+└── index.html          # HTML code
+└── style.css           # CSS code
+```
+
+## 🖼️ Preview
+
+<img src="./assets/screenshot/project-screenshot.png" alt="Vertical Timeline Bar Preview" width="600">
