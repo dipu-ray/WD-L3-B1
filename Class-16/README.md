@@ -39,7 +39,7 @@ napoli-pizza-elite/
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="" width="600" alt="">
+  <img src="./assets/screenshot/project-screenshot.png" width="600" alt="Napoli Pizza Project">
 </p>
 
 ---
