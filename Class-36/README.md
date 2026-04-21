@@ -22,4 +22,4 @@ sunny-valley-school/
 
 ## 🖼️ Preview
 
-<img src="./screenshot/project-screenshot.png" alt="Stopwatch Preview" width="600">
+<img src="./assets/screenshot/project-screenshot.png" alt="School Project Preview" width="600">

@@ -81,6 +81,7 @@ body {
 .feature-card:hover {
     transform: translateY(-15px);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+    z-index: -1;
 }
 
 .feature-icon {
@@ -150,6 +151,10 @@ body {
     color: #333;
     transform: translateY(-3px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-l {
+    padding: 14px 35px;
 }
 
 .floating-shapes {
