@@ -44,4 +44,4 @@
 <div>Class-33: Make Modern Digital Clock with JS</div>
 <div>Class-34: Make Premium Countdown Timer with JS</div>
 <div>Class-35: Make Neon Emerald Stopwatch with JS</div>
-<div>Class-36: Make Sunny Valley School with HTMl, Bootstrap and JavaScript</div>
+<div>Class-36: Make Sunny Valley School with HTML, Bootstrap and JavaScript</div>
