@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Photo Gallery</h1>
+    <p class="subtitle">Click any image to view in lightbox</p>
+
+    <!-- Gallery Grid -->
+    <div class="gallery">
+        <div class="gallery-item" data-caption="Mountain Sunrise">
+            <img src="https://picsum.photos/id/29/800/600" alt="Mountain Sunrise">
+            <div class="overlay"><span>Mountain Sunrise</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Ocean Waves">
+            <img src="https://picsum.photos/id/37/800/600" alt="Ocean Waves">
+            <div class="overlay"><span>Ocean Waves</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Forest Path">
+            <img src="https://picsum.photos/id/15/800/600" alt="Forest Path">
+            <div class="overlay"><span>Forest Path</span></div>
+        </div>
+        <div class="gallery-item" data-caption="City Lights">
+            <img src="https://picsum.photos/id/36/800/600" alt="City Lights">
+            <div class="overlay"><span>City Lights</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Desert Dunes">
+            <img src="https://picsum.photos/id/56/800/600" alt="Desert Dunes">
+            <div class="overlay"><span>Desert Dunes</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Autumn Leaves">
+            <img src="https://picsum.photos/id/19/800/600" alt="Autumn Leaves">
+            <div class="overlay"><span>Autumn Leaves</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Snowy Peaks">
+            <img src="https://picsum.photos/id/44/800/600" alt="Snowy Peaks">
+            <div class="overlay"><span>Snowy Peaks</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Lakeside View">
+            <img src="https://picsum.photos/id/49/800/600" alt="Lakeside View">
+            <div class="overlay"><span>Lakeside View</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Wildflower Meadow">
+            <img src="https://picsum.photos/id/106/800/600" alt="Wildflower Meadow">
+            <div class="overlay"><span>Wildflower Meadow</span></div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">✕</button>
+        <button class="lightbox-prev" id="lightbox-prev">‹</button>
+        <button class="lightbox-next" id="lightbox-next">›</button>
+        <span class="lightbox-counter" id="lightbox-counter"></span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- To link my JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
