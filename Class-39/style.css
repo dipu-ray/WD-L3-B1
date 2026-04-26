@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
+    animation: glowPulse 4s ease-in-out infinite alternate;
+    z-index: -1;
+}
+
+@keyframes glowPulse {
+    0% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 90%;
+    max-width: 500px;
+    animation: slideIn 0.8s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    animation: titleGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes titleGlow {
+    from {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+
+    to {
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.4);
+    }
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+#todoInput {
+    flex: 1;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#todoInput::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#todoInput:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    transform: scale(1.02);
+}
+
+#addBtn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+#addBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.6);
+}
+
+#addBtn:active {
+    transform: translateY(-1px);
+}
+
+.todos {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+
+.todos::-webkit-scrollbar {
+    width: 6px;
+}
+
+.todos::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.todos::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: slideInUp 0.5s ease-out;
+    transition: all 0.3s ease;
+    word-break: break-word;
+}
+
+.todo-item:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.todo-item.completed {
+    opacity: 0.6;
+    background: rgba(46, 125, 50, 0.2);
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+}
+
+/* Clicking the text toggles completion */
+.todo-text {
+    flex: 1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    max-width: calc(100% - 60px);
+    transition: opacity 0.2s ease;
+}
+
+.todo-text:hover {
+    opacity: 0.75;
+}
+
+.delete-btn {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.delete-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+}
+
+.clear-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #a8edea, #fed6e3);
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.clear-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(168, 237, 234, 0.5);
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 25px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .todo-text {
+        font-size: 15px;
+        max-width: calc(100% - 55px);
+    }
+}
