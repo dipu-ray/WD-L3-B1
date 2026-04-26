@@ -4,7 +4,9 @@
 
 <hr>
 
-<p>This course runs under The Bangladesh government from <b>ASSET</b>. I am learning this course from <b>PeopleNTech Institute of IT</b>. I am from <b>Batch 01</b> and this courses <b>Level-03</b>.</p>
+<p>The <strong>ASSET Web Design Level 3</strong> course is a government-funded initiative in Bangladesh, supported by the <strong>World Bank</strong>, designed to provide free, professional training in modern digital skills. This three-month intensive program focuses on essential technologies like <strong>HTML, CSS, Bootstrap, and JavaScript</strong>. The course provides a daily allowance for trainees and concludes with a nationally recognized certificate from the <strong>National Skills Development Authority (NSDA)</strong>. Graduates are prepared for careers in the local IT industry or as competitive freelancers in the global marketplace.</p>
+
+<p>I am currently enrolled in the <strong>ASSET Web Design Level-03</strong> program at <strong>PeopleNTech Institute of IT</strong>. As a member of <strong>Batch 01</strong>, I am gaining hands-on experience in modern web technologies and professional freelancing.</p>
 
 <hr>
 
