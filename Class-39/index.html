@@ -5,21 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Application</title>
+    <!-- Linking external stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Background element for the glow/blur effect -->
     <div class="glow"></div>
+
     <div class="container">
         <h1>✨ Glowing Todos ✨</h1>
+
+        <!-- Section for user input and the add button -->
         <div class="input-container">
             <input type="text" id="todoInput" placeholder="Add your magical task..." maxlength="60">
             <button id="addBtn">Add Task</button>
         </div>
+
+        <!-- Dynamic container where JavaScript will inject task items -->
         <div class="todos" id="todos"></div>
+
+        <!-- Hidden by default; appears via JS when there are tasks to clear -->
         <button class="clear-btn" id="clearAllBtn" style="display:none;">🧹 Clear All Completed</button>
     </div>
 
+    <!-- Linking external JavaScript to handle logic and interactivity -->
     <script src="script.js"></script>
 </body>
 
