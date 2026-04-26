@@ -47,3 +47,4 @@
 <div>Class-36: Make Sunny Valley School with JS</div>
 <div>Class-37: Make Photo Gallery Application with JS</div>
 <div>Class-38: Make Counter Card Design with JS</div>
+<div>Class-39: Make Todo Application with JS</div>
