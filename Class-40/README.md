@@ -22,4 +22,4 @@ weather-application/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot" alt="Weather Application Project Screenshot" width="600">
+<img src="./assets/screenshot/project-screenshot.png" alt="Weather Application Project Screenshot" width="600">
