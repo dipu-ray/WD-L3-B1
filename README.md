@@ -50,3 +50,4 @@
 <div>Class-37: Make Photo Gallery Application with JS</div>
 <div>Class-38: Make Counter Card Design with JS</div>
 <div>Class-39: Make Todo Application with JS</div>
+<div>Class-40: Make Weather Application with JS</div>
