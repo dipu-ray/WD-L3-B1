@@ -22,4 +22,4 @@ premium-countdown-timer/
 
 ## 🖼️ Preview
 
-<img src="./screenshot/project-screenshot.png" alt="Clock Countdown Timer" width="600">
+<img src="./screenshot/project-screenshot.png" alt="Premium Countdown Timer Project Screenshot" width="600">

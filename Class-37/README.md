@@ -22,4 +22,4 @@ photo-gallery-application/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot/project-screenshot.png" alt="Photo Gallery Application Image" width="600">
+<img src="./assets/screenshot/project-screenshot.png" alt="Photo Gallery Application Project Screenshot" width="600">

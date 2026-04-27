@@ -22,4 +22,4 @@ neon-emerald-stopwatch/
 
 ## 🖼️ Preview
 
-<img src="./screenshot/project-screenshot.png" alt="Stopwatch Preview" width="600">
+<img src="./screenshot/project-screenshot.png" alt="Neon Emerald Stopwatch Project Screenshot" width="600">

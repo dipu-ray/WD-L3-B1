@@ -28,4 +28,4 @@ modern-digital-clock/
 
 ## 🖼️ Preview
 
-<img src="./screenshot/project-screenshot.png" alt="Clock Preview" width="600">
+<img src="./screenshot/project-screenshot.png" alt="Modern Digital Clock Project Screenshot" width="600">

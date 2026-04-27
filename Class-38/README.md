@@ -22,4 +22,4 @@ counter-card-design/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot/project-screenshot.png" alt="Counter Card Design Screenshot" width="600">
+<img src="./assets/screenshot/project-screenshot.png" alt="Counter Card Design Project Screenshot" width="600">
