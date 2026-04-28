@@ -1,0 +1,342 @@
+:root {
+    --primary: #ff758c;
+    --secondary: #8b5cf6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+}
+
+/* Animated Gradient Background */
+.hero-section {
+    background: linear-gradient(-45deg, #ff7eb3, #ff758c, #8b5cf6, #3b82f6);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Floating Shapes Animation */
+.shape {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+    z-index: 0;
+}
+
+.shape-1 {
+    width: 150px;
+    height: 150px;
+    top: 15%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    width: 250px;
+    height: 250px;
+    bottom: 20%;
+    right: 10%;
+    animation-delay: 2s;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.shape-3 {
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    right: 25%;
+    animation-delay: 4s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-30px) rotate(20deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+.hero-content {
+    z-index: 1;
+    position: relative;
+}
+
+/* Navbar Customization */
+.navbar {
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    position: relative;
+    margin: 0 10px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Buttons Hover Effects */
+.btn-custom {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-custom::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+.btn-custom:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-custom:hover::before {
+    width: 100%;
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
+    color: white;
+}
+
+/* Card Hover Effects */
+.portfolio-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease;
+    background: white;
+    height: 100%;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-card img {
+    transition: transform 0.6s ease;
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.portfolio-card:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(139, 92, 246, 0.8), rgba(255, 117, 140, 0.8));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay i {
+    color: white;
+    font-size: 2rem;
+    transform: translateY(20px);
+    transition: transform 0.4s ease;
+}
+
+.portfolio-card:hover .overlay i {
+    transform: translateY(0);
+}
+
+/* Badges */
+.badge-skill {
+    background: linear-gradient(45deg, var(--secondary), var(--primary));
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.badge-skill:hover {
+    transform: scale(1.1);
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25);
+}
+
+/* Scroll Reveal Animation Classes */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal-left.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal-right.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Footer */
+footer {
+    background: #212529;
+    color: white;
+    padding: 40px 0 20px;
+}
+
+.social-links a {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background: var(--primary);
+    transform: translateY(-5px);
+}
+
+section {
+    padding: 100px 0;
+}
