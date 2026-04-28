@@ -23,4 +23,4 @@ personal-portfolio/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot" alt="Personal Portfolio Project Screenshot" width="600">
+<img src="./assets/screenshot/project-screenshot.png" alt="Personal Portfolio Project Screenshot" width="600">
