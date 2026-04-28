@@ -1,6 +1,6 @@
 ## Date: 28 April, 2026 - Tuesday
 
-# 🌤️ Personal Portfolio
+# 🚀 Personal Portfolio
 
 Make this project with HTML, CSS and JavaScript.
 
