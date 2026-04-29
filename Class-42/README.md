@@ -23,4 +23,4 @@ e-commerce-website/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot" alt="E-Commerce Website Project Screenshot" width="600">
+<img src="./assets/screenshot/project-screenshot.png" alt="E-Commerce Website Project Screenshot" width="600">
