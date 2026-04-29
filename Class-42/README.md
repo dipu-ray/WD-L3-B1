@@ -1,6 +1,6 @@
-## Date: 28 April, 2026 - Tuesday
+## Date: 29 April, 2026 - Wednesday
 
-# 🚀 Personal Portfolio
+# 🛍️ E-Commerce Website
 
 Make this project with HTML, CSS, Bootstrap and JavaScript.
 
@@ -14,7 +14,7 @@ Make this project with HTML, CSS, Bootstrap and JavaScript.
 ## 📂 Project Structure
 
 ```text
-personal-portfolio/
+e-commerce-website/
 ├── README.md           # Project documentation
 └── index.html          # HTML code + Bootstrap
 └── script.js           # JavaScript program
@@ -23,4 +23,4 @@ personal-portfolio/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot/project-screenshot.png" alt="Personal Portfolio Project Screenshot" width="600">
+<img src="./assets/screenshot" alt="E-Commerce Website Project Screenshot" width="600">
