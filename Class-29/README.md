@@ -12,12 +12,17 @@
 
 ## Others Resources:
 
-- Install this extension on your **VSCode** for reading `README.md` file:
-    - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- The **Markdown All in One** extension provides **essential shortcuts and automation** to make writing Markdown in VS Code much faster and easier. Here is the download link of **Markdown All in One**: [Click and Download](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-- [HTML Quiz | Set 1](https://www.geeksforgeeks.org/quizzes/html-course-practice-quiz-1/)
+- **Core Functions:**
+  - **Auto-formats** numbered lists and task boxes as you type.
+  - **Adds shortcuts** for bolding, italicizing, and linking text.
+  - **Generates living Tables of Contents** that update automatically.
+  - **Suggests local file paths** when inserting images or links.
 
-- [HTML Quiz | Set 2](https://www.geeksforgeeks.org/quizzes/html-course-practice-quiz-2/)
+- [HTML Course | Practice Quiz 1](https://www.geeksforgeeks.org/quizzes/html-course-practice-quiz-1/)
+
+- [HTML Course | Practice Quiz 2](https://www.geeksforgeeks.org/quizzes/html-course-practice-quiz-2/)
 
 - [CSS Quiz | Set-1](https://www.geeksforgeeks.org/quizzes/css-quiz-set-1/)
 
@@ -33,6 +38,6 @@
 
 - [Quiz: HTML, CSS, JS, jQuery & PHP](https://www.studocu.com/row/quiz/html-css-bootstrap-javascript-jquery-php/9134174)
 
-- [HTML Interview QnA](https://www.scribd.com/document/841341292/HTML-Interview-Questions)
+- [HTML Interview Questions](https://www.scribd.com/document/841341292/HTML-Interview-Questions)
 
-- [CSS Interview QnA](https://www.scribd.com/document/340979597/CSS-Important-MCQ-Questions)
+- [CSS MCQs and Important CQs](https://www.scribd.com/document/340979597/CSS-Important-MCQ-Questions)
