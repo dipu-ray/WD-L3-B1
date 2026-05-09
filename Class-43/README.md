@@ -23,4 +23,4 @@ valislide-pop/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot/project-screenshot.png" alt="For Project Screenshot" width="600">
+<!-- <img src="./assets/screenshot/project-screenshot.png" alt="For Project Screenshot" width="600"> -->

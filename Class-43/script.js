@@ -1,61 +1,91 @@
-// Form validation (Contact Form)
-function validateForm() {
-    const name = document.getElementById("name").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const nameError = document.getElementById("nameError");
-    const emailError = document.getElementById("emailError");
-    nameError.textContent = "";
-    emailError.textContent = "";
-    if (name === "") {
-        nameError.textContent = "Name must be entered.";
-        return false;
-    }
-    if (email === "") {
-        emailError.textContent = "Email must be entered.";
-        return false;
-    }
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        emailError.textContent = "Please enter a valid email format.";
-        return false;
-    }
-    alert("Form submitted successfully!");
-    return true;
+// ===========================
+// Live Date & Time
+// ===========================
+
+function updateClock() {
+    const now = new Date();
+
+    const time = now.toLocaleTimeString();
+    const date = now.toDateString();
+
+    document.getElementById("clock").innerHTML = time;
+    document.getElementById("date").innerHTML = date;
 }
 
-// Feedback Modal: send feedback
-function submitFeedback() {
-    const nameInput = document.getElementById("feedbackName");
-    const messageInput = document.getElementById("feedbackMessage");
-    const name = nameInput.value.trim();
-    const message = messageInput.value.trim();
-    if (name === "") {
-        alert("Please enter your name.");
-        return;
-    }
-    if (message === "") {
-        alert("Please write your feedback message.");
-        return;
-    }
-    const msg = `From: ${name}\nMessage: ${message}`;
-    alert("Thank you!\n\n" + msg);
+setInterval(updateClock, 1000);
 
-    // Optional: clear fields after submit
-    nameInput.value = "";
-    messageInput.value = "";
-}
+updateClock();
 
-// Scroll to Top Button
-const scrollBtn = document.getElementById("scrollTopBtn");
+// ===========================
+// Form Validation
+// ===========================
+
+document
+    .getElementById("myForm")
+    .addEventListener("submit", function (e) {
+
+        e.preventDefault();
+
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let message = document.getElementById("message").value.trim();
+
+        let valid = true;
+
+        // Clear previous errors
+        document.getElementById("nameError").innerHTML = "";
+        document.getElementById("emailError").innerHTML = "";
+        document.getElementById("messageError").innerHTML = "";
+
+        // Name validation
+        if (name === "") {
+            document.getElementById("nameError").innerHTML =
+                "Name is required";
+            valid = false;
+        }
+
+        // Email validation
+        if (email === "") {
+            document.getElementById("emailError").innerHTML =
+                "Email is required";
+            valid = false;
+        }
+
+        // Message validation
+        if (message === "") {
+            document.getElementById("messageError").innerHTML =
+                "Message is required";
+            valid = false;
+        }
+
+        // Success
+        if (valid) {
+            alert("Form submitted successfully!");
+            document.getElementById("myForm").reset();
+        }
+    });
+
+// ===========================
+// Back To Top Button
+// ===========================
+
+const topBtn = document.getElementById("topBtn");
+
 window.onscroll = function () {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        scrollBtn.style.display = "block";
+
+    if (
+        document.body.scrollTop > 300 ||
+        document.documentElement.scrollTop > 300
+    ) {
+        topBtn.style.display = "block";
     } else {
-        scrollBtn.style.display = "none";
+        topBtn.style.display = "none";
     }
 };
 
-function scrollToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+topBtn.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
