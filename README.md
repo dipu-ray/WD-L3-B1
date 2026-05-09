@@ -53,7 +53,7 @@
 <div>Class-40: Make Weather Application with JS</div>
 <div>Class-41: Make Personal Portfolio with JS</div>
 <div>Class-42: Make E-Commerce Website with JS</div>
-<div>Class-43: Make ValiSlide Pop with JS</div>
+<div>Class-43: Make Professional Modern Website with JS</div>
 
 ---
 
