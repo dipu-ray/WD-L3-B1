@@ -54,9 +54,10 @@
 <div>Class-41: Make Personal Portfolio with JS</div>
 <div>Class-42: Make E-Commerce Website with JS</div>
 <div>Class-43: Make Professional Modern Website with JS</div>
+<div>Class-44: Build Educational Websites, Short Questions & MCQs</div>
 
 ---
 
-> Class End: 30 April, 2026 - Monday
+> Class End: 07 May, 2026 - Thursday
 > <br>
 > Final Assessment: 09 May, 2026 - Saturday
