@@ -23,6 +23,14 @@ professional-modern-website/
 
 ## 🖼️ Preview
 
-<img src="./assets/screenshot/project-screenshot.png" alt="Professional Modern Website Project Screenshot" width="600">
-<img src="./assets/screenshot/project-screenshot-2.png" alt="Professional Modern Website Project Screenshot 2" width="600">
-<img src="./assets/screenshot/project-screenshot-3.png" alt="Professional Modern Website Project Screenshot 3" width="600">
+<p align="center">
+    <img src="./assets/screenshots/project-screenshot.png" alt="Professional Modern Website Project Screenshot" width="600">
+</p>
+
+<p align="center">
+    <img src="./assets/screenshots/project-screenshot-2.png" alt="Professional Modern Website Project Screenshot 2" width="600">
+</p>
+
+<p align="center">
+    <img src="./assets/screenshots/project-screenshot-3.png" alt="Professional Modern Website Project Screenshot 3" width="600">
+</p>
