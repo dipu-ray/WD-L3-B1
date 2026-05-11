@@ -9,8 +9,6 @@
 
 # E-Commerce Websites
 
-- [Back to Top ⬆️](#topics)
-
 This **E-Commerce Websites** have shop section, about section, reviews section, offers section and checkout section and JavaScript using for **Date and Time show**, **Form Validation** & **Scroll to Top Button**.
 
 ## 🛠️ Tech Stack
@@ -48,10 +46,6 @@ e-commerce-websites/
 
 # Short Questions:
 
-- [Back to Top ⬆️](#topics)
-
-<br>
-
 - [HTML (25 Questions)](#html-25-questions)
 - [CSS (25 Questions)](#css-25-questions)
 - [Bootstrap (20 Questions)](#bootstrap-20-questions)
@@ -60,9 +54,6 @@ e-commerce-websites/
 - [Advanced Questions and Answers](#advanced-questions-and-answers)
 
 # HTML (25 Questions)
-
-- [Back to Top ⬆️](#topics)
-- [Back to - Short Questions](#short-questions)
 
 ## 1. What is HTML?
 
