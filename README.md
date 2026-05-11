@@ -55,6 +55,7 @@
 <div>Class-42: Make E-Commerce Website with JS</div>
 <div>Class-43: Make Professional Modern Website with JS</div>
 <div>Class-44: Build Educational Websites, Short Questions & MCQs</div>
+<div>Class-45: Build E-Commerce Websites & Short Questions</div>
 
 ---
 
