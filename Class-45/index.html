@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXE MART — Premium Shopping Experience</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <span>✦</span> FREE SHIPPING ON ORDERS OVER $75 &nbsp;|&nbsp; USE CODE: <span>LUXE20</span> FOR 20% OFF
+        &nbsp;|&nbsp; <span>✦</span>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">LUXE<span>MART</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+                <i class="bi bi-list fs-3"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navMain">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#products">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#newsletter">Offers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#checkout">Checkout</a></li>
+                </ul>
+                <input type="text" class="search-bar" placeholder="Search products…" />
+                <div class="nav-icons ms-3 d-flex align-items-center">
+                    <a href="#"><i class="bi bi-person"></i></a>
+                    <a href="#"><i class="bi bi-heart"></i></a>
+                    <a href="#checkout" style="position:relative">
+                        <i class="bi bi-bag"></i>
+                        <span class="cart-badge" id="cartCount">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container" style="position:relative;z-index:1">
+            <div class="col-lg-7">
+                <div class="hero-tag"><i class="bi bi-stars"></i> New Season Collection 2025</div>
+                <h1>Discover Your<br><em>Signature</em><br>Style</h1>
+                <p>Premium fashion, electronics, and lifestyle essentials — curated for those who demand the
+                    extraordinary.</p>
+                <div class="d-flex gap-3 flex-wrap">
+                    <a href="#products" class="btn-gold">Shop Now</a>
+                    <a href="#features" class="btn-outline-dark-custom">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <div class="cat-section">
+        <div class="container">
+            <div class="row g-3 justify-content-center">
+                <div class="col-6 col-sm-4 col-md-2">
+                    <a href="#products" class="cat-pill active">
+                        <i class="bi bi-grid cat-icon"></i>
+                        <span class="cat-name">All</span>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <a href="#products" class="cat-pill">
+                        <i class="bi bi-bag-heart cat-icon"></i>
+                        <span class="cat-name">Fashion</span>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <a href="#products" class="cat-pill">
+                        <i class="bi bi-phone cat-icon"></i>
+                        <span class="cat-name">Electronics</span>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <a href="#products" class="cat-pill">
+                        <i class="bi bi-house cat-icon"></i>
+                        <span class="cat-name">Home</span>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <a href="#products" class="cat-pill">
+                        <i class="bi bi-gem cat-icon"></i>
+                        <span class="cat-name">Jewelry</span>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <a href="#products" class="cat-pill">
+                        <i class="bi bi-controller cat-icon"></i>
+                        <span class="cat-name">Gaming</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-end justify-content-between mb-4 gap-3">
+                <div>
+                    <div class="sec-label">Featured Collection</div>
+                    <h2 class="sec-title mb-0">Trending Right Now</h2>
+                </div>
+                <div class="filter-tabs">
+                    <button class="btn active">All</button>
+                    <button class="btn">New</button>
+                    <button class="btn">Sale</button>
+                    <button class="btn">Hot</button>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80"
+                                alt="Watch" />
+                            <span class="prod-badge badge-hot">Hot</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Premium Watch', 249)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Accessories</div>
+                            <div class="prod-name">Minimalist Pro Watch</div>
+                            <div class="prod-rating">★★★★★ <span>(128)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$249</span>
+                                <span class="price-old">$320</span>
+                                <span class="price-save">−22%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80"
+                                alt="Sneakers" />
+                            <span class="prod-badge badge-new">New</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Air Sneakers', 185)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Footwear</div>
+                            <div class="prod-name">Urban Air Sneakers</div>
+                            <div class="prod-rating">★★★★☆ <span>(94)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$185</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80"
+                                alt="Headphones" />
+                            <span class="prod-badge badge-sale">Sale</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Noise-Cancel Headphones', 139)">Add
+                                    to Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Electronics</div>
+                            <div class="prod-name">Noise-Cancel Headphones</div>
+                            <div class="prod-rating">★★★★★ <span>(207)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$139</span>
+                                <span class="price-old">$199</span>
+                                <span class="price-save">−30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&q=80"
+                                alt="Running Shoes" />
+                            <span class="prod-badge badge-new">New</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Running Pro X', 220)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Sports</div>
+                            <div class="prod-name">Running Pro X</div>
+                            <div class="prod-rating">★★★★★ <span>(61)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$220</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80" alt="Bag" />
+                            <span class="prod-badge badge-hot">Hot</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Leather Tote Bag', 310)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Bags</div>
+                            <div class="prod-name">Leather Tote Bag</div>
+                            <div class="prod-rating">★★★★★ <span>(173)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$310</span>
+                                <span class="price-old">$380</span>
+                                <span class="price-save">−18%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80"
+                                alt="Perfume" />
+                            <span class="prod-badge badge-new">New</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Noir Parfum', 95)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Beauty</div>
+                            <div class="prod-name">Noir Signature Parfum</div>
+                            <div class="prod-rating">★★★★☆ <span>(89)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$95</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&q=80"
+                                alt="Camera" />
+                            <span class="prod-badge badge-sale">Sale</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Retro Film Camera', 175)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Electronics</div>
+                            <div class="prod-name">Retro Film Camera</div>
+                            <div class="prod-rating">★★★★★ <span>(44)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$175</span>
+                                <span class="price-old">$240</span>
+                                <span class="price-save">−27%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="prod-card">
+                        <div class="prod-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80"
+                                alt="Sofa" />
+                            <span class="prod-badge badge-hot">Hot</span>
+                            <div class="prod-actions">
+                                <button class="prod-action-btn" onclick="addToCart('Velvet Accent Sofa', 899)">Add to
+                                    Cart</button>
+                                <div class="prod-action-icon"><i class="bi bi-heart"></i></div>
+                            </div>
+                        </div>
+                        <div class="prod-body">
+                            <div class="prod-cat">Home</div>
+                            <div class="prod-name">Velvet Accent Sofa</div>
+                            <div class="prod-rating">★★★★★ <span>(32)</span></div>
+                            <div class="prod-price">
+                                <span class="price-now">$899</span>
+                                <span class="price-old">$1,100</span>
+                                <span class="price-save">−18%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <section style="background:var(--light);padding:2rem 0 4rem">
+        <div class="container">
+            <div class="promo-banner">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <div class="sec-label" style="color:var(--gold)">Limited Time Offer</div>
+                        <h2>Flash Sale — Up to <span>50% Off</span><br>Selected Items</h2>
+                        <p>Don't miss our biggest sale of the season. Offer ends when the timer hits zero.</p>
+                        <a href="#products" class="btn-gold">Shop the Sale</a>
+                        <div class="countdown-wrap">
+                            <div class="count-box">
+                                <div class="count-num" id="cd-h">08</div>
+                                <div class="count-lbl">Hours</div>
+                            </div>
+                            <div class="count-box">
+                                <div class="count-num" id="cd-m">45</div>
+                                <div class="count-lbl">Mins</div>
+                            </div>
+                            <div class="count-box">
+                                <div class="count-num" id="cd-s">00</div>
+                                <div class="count-lbl">Secs</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=480&q=80" alt="Sale"
+                            style="border-radius:16px;max-width:100%;max-height:280px;object-fit:cover;box-shadow:0 20px 50px rgba(0,0,0,.4)" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="sec-label">Why Choose Us</div>
+                <h2 class="sec-title">Shopping Made Better</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feat-card">
+                        <div class="feat-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Free Fast Delivery</h5>
+                        <p>Free shipping on all orders over $75. Express delivery available in 24 hrs.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feat-card">
+                        <div class="feat-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Secure Payments</h5>
+                        <p>256-bit SSL encryption protects every transaction. Shop with confidence.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feat-card">
+                        <div class="feat-icon"><i class="bi bi-arrow-counterclockwise"></i></div>
+                        <h5>Easy Returns</h5>
+                        <p>Not satisfied? Return within 30 days — no questions asked, hassle-free.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feat-card">
+                        <div class="feat-icon"><i class="bi bi-headset"></i></div>
+                        <h5>24/7 Support</h5>
+                        <p>Our customer care team is available around the clock via chat, email or phone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="sec-label">Customer Reviews</div>
+                <h2 class="sec-title" style="color:var(--white)">What Our Shoppers Say</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testi-card">
+                        <div class="testi-stars">★★★★★</div>
+                        <p class="testi-text">"Absolutely love the quality! The watch I ordered exceeded every
+                            expectation. Packaging was impeccable and delivery was next day."</p>
+                        <div class="testi-author">
+                            <div class="testi-av">S</div>
+                            <div>
+                                <div class="testi-name">Sarah Mitchell</div>
+                                <div class="testi-role">Verified Buyer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testi-card">
+                        <div class="testi-stars">★★★★★</div>
+                        <p class="testi-text">"Best online shopping experience I've had. The return process was seamless
+                            and customer support actually responded within minutes."</p>
+                        <div class="testi-author">
+                            <div class="testi-av">J</div>
+                            <div>
+                                <div class="testi-name">James Okafor</div>
+                                <div class="testi-role">Verified Buyer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testi-card">
+                        <div class="testi-stars">★★★★★</div>
+                        <p class="testi-text">"The leather bag is stunning in person — far better than the photos
+                            suggested. I've already recommended LUXEMART to all my friends."</p>
+                        <div class="testi-author">
+                            <div class="testi-av">P</div>
+                            <div>
+                                <div class="testi-name">Priya Sharma</div>
+                                <div class="testi-role">Verified Buyer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <div class="sec-label" style="color:rgba(0,0,0,.55)">Stay Updated</div>
+                    <h2>Get Exclusive Deals<br>in Your Inbox</h2>
+                    <p class="mt-2">Join 50,000+ smart shoppers and never miss a deal, drop, or discount.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="news-form">
+                        <input type="email" class="news-input" placeholder="Enter your email address…" />
+                        <button class="news-btn">Subscribe</button>
+                    </div>
+                    <p style="font-size:.75rem;color:rgba(0,0,0,.45);margin-top:.6rem">No spam. Unsubscribe at any time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHECKOUT -->
+    <section id="checkout">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="sec-label">Secure Checkout</div>
+                <h2 class="sec-title">Complete Your Order</h2>
+            </div>
+
+            <div id="orderSuccess" class="alert alert-success text-center mb-4" role="alert"
+                style="border-radius:14px;padding:1.2rem">
+                <i class="bi bi-check-circle-fill me-2 fs-5"></i><strong>Order Placed!</strong> Thank you for shopping
+                with LUXEMART. You'll receive a confirmation email shortly.
+            </div>
+
+            <div class="row g-4 align-items-start">
+                <!-- Form -->
+                <div class="col-lg-7">
+                    <div class="form-card">
+                        <h4 class="mb-4" style="font-family:'Cormorant Garamond',serif;font-size:1.6rem">Shipping &
+                            Payment</h4>
+                        <form id="checkoutForm" novalidate>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <p class="fw-bold"
+                                        style="font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold)">
+                                        Contact Information</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="John"
+                                        required />
+                                    <div class="invalid-feedback">First name is required.</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Doe" required />
+                                    <div class="invalid-feedback">Last name is required.</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="emailAddr" placeholder="john@email.com"
+                                        required />
+                                    <div class="invalid-feedback">Enter a valid email address.</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="+1 555 000 0000"
+                                        required pattern="^[0-9+\-\s]{10,15}$" />
+                                    <div class="invalid-feedback">Enter a valid phone number.</div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <p class="fw-bold"
+                                        style="font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold)">
+                                        Shipping Address</p>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Street Address *</label>
+                                    <input type="text" class="form-control" id="address" placeholder="123 Main Street"
+                                        required />
+                                    <div class="invalid-feedback">Address is required.</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">City *</label>
+                                    <input type="text" class="form-control" id="city" placeholder="New York" required />
+                                    <div class="invalid-feedback">City is required.</div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <label class="form-label">State</label>
+                                    <input type="text" class="form-control" id="state" placeholder="NY" />
+                                </div>
+                                <div class="col-sm-3">
+                                    <label class="form-label">ZIP Code *</label>
+                                    <input type="text" class="form-control" id="zip" placeholder="10001" required
+                                        pattern="^\d{4,10}$" />
+                                    <div class="invalid-feedback">Valid ZIP required.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Country *</label>
+                                    <select class="form-select" id="country" required>
+                                        <option value="">Select country…</option>
+                                        <option>United States</option>
+                                        <option>United Kingdom</option>
+                                        <option>Canada</option>
+                                        <option>Australia</option>
+                                        <option>Bangladesh</option>
+                                        <option>India</option>
+                                        <option>Germany</option>
+                                        <option>France</option>
+                                        <option>Other</option>
+                                    </select>
+                                    <div class="invalid-feedback">Please select a country.</div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <p class="fw-bold"
+                                        style="font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold)">
+                                        Payment Details</p>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Card Number *</label>
+                                    <input type="text" class="form-control" id="cardNum"
+                                        placeholder="1234 5678 9012 3456" maxlength="19" required
+                                        pattern="^\d{4}\s?\d{4}\s?\d{4}\s?\d{4}$" />
+                                    <div class="invalid-feedback">Enter a valid 16-digit card number.</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Expiry Date *</label>
+                                    <input type="text" class="form-control" id="expiry" placeholder="MM/YY"
+                                        maxlength="5" required pattern="^(0[1-9]|1[0-2])\/\d{2}$" />
+                                    <div class="invalid-feedback">Enter date as MM/YY.</div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">CVV *</label>
+                                    <input type="text" class="form-control" id="cvv" placeholder="•••" maxlength="4"
+                                        required pattern="^\d{3,4}$" />
+                                    <div class="invalid-feedback">Enter 3 or 4 digit CVV.</div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="agreeTerms" required />
+                                        <label class="form-check-label" for="agreeTerms" style="font-size:.85rem">
+                                            I agree to the <a href="#" style="color:var(--gold)">Terms & Conditions</a>
+                                            and <a href="#" style="color:var(--gold)">Privacy Policy</a> *
+                                        </label>
+                                        <div class="invalid-feedback">You must agree to proceed.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-2">
+                                    <button type="submit" class="btn-checkout">
+                                        <i class="bi bi-lock-fill me-2"></i>Place Order Securely
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="col-lg-5">
+                    <div class="order-summary">
+                        <h4>Order Summary</h4>
+                        <div id="cartItems">
+                            <p style="color:rgba(255,255,255,.4);font-size:.88rem;text-align:center;padding:1.5rem 0">
+                                Your cart is empty.<br>Add products above!</p>
+                        </div>
+                        <div style="margin-top:1rem">
+                            <div class="order-line"><span>Subtotal</span><span id="subtotalAmt">$0.00</span></div>
+                            <div class="order-line"><span>Shipping</span><span style="color:#52be80">FREE</span></div>
+                            <div class="order-line"><span>Tax (8%)</span><span id="taxAmt">$0.00</span></div>
+                            <div class="order-total"><span>Total</span><span id="totalAmt">$0.00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">LUXE<span>MART</span></div>
+                    <p class="mt-3" style="font-size:.88rem;line-height:1.8">Your destination for premium products
+                        across fashion, electronics, home, beauty and more. Curated for those who live with intention.
+                    </p>
+                    <div class="mt-3">
+                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                    <div class="payment-icons mt-3">
+                        <span class="pay-icon">VISA</span>
+                        <span class="pay-icon">MC</span>
+                        <span class="pay-icon">AMEX</span>
+                        <span class="pay-icon">PayPal</span>
+                        <span class="pay-icon">Apple Pay</span>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Shop</h5>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Sale Items</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Home & Living</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Help</h5>
+                    <ul>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Us</h5>
+                    <ul>
+                        <li><i class="bi bi-geo-alt-fill me-2" style="color:var(--gold)"></i>350 Fifth Avenue, NY 10118
+                        </li>
+                        <li class="mt-2"><i class="bi bi-envelope-fill me-2"
+                                style="color:var(--gold)"></i>hello@luxemart.com</li>
+                        <li class="mt-2"><i class="bi bi-telephone-fill me-2" style="color:var(--gold)"></i>+1 (800)
+                            555-LUXE</li>
+                        <li class="mt-2"><i class="bi bi-clock-fill me-2" style="color:var(--gold)"></i>Mon–Fri: 9AM –
+                            9PM EST</li>
+                    </ul>
+                    <div class="mt-3"
+                        style="background:rgba(255,255,255,.05);border-radius:10px;padding:.8rem 1rem;font-size:.8rem;color:rgba(255,255,255,.5)">
+                        <i class="bi bi-shield-check me-1" style="color:var(--gold)"></i> 256-bit SSL Secure Shopping
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider" />
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span>© 2025 LUXEMART. All rights reserved.</span>
+                <div id="live-clock"><i class="bi bi-clock me-1"></i><span id="clock-text"></span></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top Button -->
+    <button id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!-- Cart Toast -->
+    <div class="cart-toast" id="cartToast"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

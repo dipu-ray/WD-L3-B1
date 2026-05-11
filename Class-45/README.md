@@ -1,0 +1,52 @@
+# 📅 Date: 04 May, 2026 - Monday
+
+# Topics
+
+* [Build E-Commerce Websites](#e-commerce-websites)
+* [Short Questions](#short-questions)
+* [MCQs](#mcqs)
+
+---
+
+# E-Commerce Websites
+
+* [Back to Top ⬆️](#topics)
+
+This **E-Commerce Websites** have shop section, about section, reviews section, offers section and checkout section and JavaScript using for **Date and Time show**, **Form Validation** & **Scroll to Top Button**.
+
+## 🛠️ Tech Stack
+
+- **HTML:** Semantic structure.
+- **CSS:** Colorful and style.
+- **Bootstrap:** Responsive layout & prebuilt UI components.
+- **JavaScript:** DOM manipulation and intervals.
+
+## 📂 Project Structure
+
+```text
+e-commerce-websites/
+├── README.md           # Project documentation
+└── index.html          # HTML code + Bootstrap
+└── script.js           # JavaScript program
+└── style.css           # CSS code
+```
+
+## 🖼️ Preview
+
+<p align="center">
+    <img src="./assets/screenshots/project-screenshot.png" alt="E-Commerce Websites Project Screenshot" width="600">
+</p>
+
+<p align="center">
+<img src="./assets/screenshots/project-screenshot-2.png" alt="E-Commerce Websites Project Screenshot 2" width="600">
+</p>
+
+<p align="center">
+<img src="./assets/screenshots/project-screenshot-3.png" alt="E-Commerce Websites Project Screenshot 3" width="600">
+</p>
+
+---
+
+# Short Questions:
+
+* [Back to Top ⬆️](#topics)
