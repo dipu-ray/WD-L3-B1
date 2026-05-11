@@ -34,15 +34,15 @@ educational-website/
 ## 🖼️ Preview
 
 <p align="center">
-    <img src="./assets/screenshot/project-screenshot.png" alt="Educational Website Project Screenshot" width="600">
+    <img src="./assets/screenshots/project-screenshot.png" alt="Educational Website Project Screenshot" width="600">
 </p>
 
 <p align="center">
-<img src="./assets/screenshot/project-screenshot-2.png" alt="Educational Website Project Screenshot 2" width="600">
+<img src="./assets/screenshots/project-screenshot-2.png" alt="Educational Website Project Screenshot 2" width="600">
 </p>
 
 <p align="center">
-<img src="./assets/screenshot/project-screenshot-3.png" alt="Educational Website Project Screenshot 3" width="600">
+<img src="./assets/screenshots/project-screenshot-3.png" alt="Educational Website Project Screenshot 3" width="600">
 </p>
 
 ---
