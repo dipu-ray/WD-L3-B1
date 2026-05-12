@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | La Dolce Vita</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolled" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">La <span>Dolce</span> Vita</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav ms-auto align-items-center gap-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservation.html">Reserve</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="reservation.html" class="btn btn-reserve">Book a Table</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== MENU ==================== -->
+    <section id="menu">
+        <div class="container">
+            <div class="section-title">
+                <span class="overline">Our Menu</span>
+                <h2>Signature Dishes</h2>
+            </div>
+
+            <!-- Menu Tabs -->
+            <ul class="nav nav-pills justify-content-center mb-5" id="menuTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#starters"
+                        type="button">Starters</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pasta" type="button">Pasta</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pizza" type="button">Pizza</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#desserts"
+                        type="button">Desserts</button>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <!-- Starters -->
+                <div class="tab-pane fade show active" id="starters">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1625943553852-781c6dd46faa?w=600&q=80"
+                                    alt="Bruschetta">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Classic Bruschetta</h5>
+                                        <span class="price">$12</span>
+                                    </div>
+                                    <p class="desc">Toasted ciabatta topped with fresh tomatoes, basil, garlic, and
+                                        extra virgin olive oil.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=600&q=80"
+                                    alt="Caprese">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Caprese Salad</h5>
+                                        <span class="price">$14</span>
+                                    </div>
+                                    <p class="desc">Buffalo mozzarella, vine-ripened tomatoes, fresh basil, balsamic
+                                        glaze.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1604909052743-94e838986d24?w=600&q=80"
+                                    alt="Calamari">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Crispy Calamari</h5>
+                                        <span class="price">$15</span>
+                                    </div>
+                                    <p class="desc">Lightly battered squid rings served with marinara and lemon aioli.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pasta -->
+                <div class="tab-pane fade" id="pasta">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=600&q=80"
+                                    alt="Carbonara">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Spaghetti Carbonara</h5>
+                                        <span class="price">$22</span>
+                                    </div>
+                                    <p class="desc">Classic Roman dish with pancetta, egg yolk, pecorino romano, and
+                                        black pepper.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80"
+                                    alt="Lasagna">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Nonna's Lasagna</h5>
+                                        <span class="price">$24</span>
+                                    </div>
+                                    <p class="desc">Layered pasta with beef ragu, béchamel, parmigiano, and mozzarella.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?w=600&q=80"
+                                    alt="Pesto">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Pesto Genovese</h5>
+                                        <span class="price">$20</span>
+                                    </div>
+                                    <p class="desc">Handmade trofie pasta with fresh basil pesto, pine nuts, and aged
+                                        parmesan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza -->
+                <div class="tab-pane fade" id="pizza">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80"
+                                    alt="Margherita">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Margherita D.O.P.</h5>
+                                        <span class="price">$18</span>
+                                    </div>
+                                    <p class="desc">San Marzano tomatoes, buffalo mozzarella, fresh basil, extra virgin
+                                        olive oil.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d001?w=600&q=80"
+                                    alt="Diavola">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Diavola</h5>
+                                        <span class="price">$21</span>
+                                    </div>
+                                    <p class="desc">Spicy salami, chili flakes, mozzarella, and San Marzano tomato
+                                        sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&q=80"
+                                    alt="Prosciutto">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Prosciutto e Rucola</h5>
+                                        <span class="price">$23</span>
+                                    </div>
+                                    <p class="desc">Parma ham, fresh arugula, shaved parmesan, and truffle oil drizzle.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="tab-pane fade" id="desserts">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=80"
+                                    alt="Tiramisu">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Classic Tiramisu</h5>
+                                        <span class="price">$11</span>
+                                    </div>
+                                    <p class="desc">Espresso-soaked ladyfingers layered with mascarpone cream and cocoa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80"
+                                    alt="Cannoli">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Sicilian Cannoli</h5>
+                                        <span class="price">$10</span>
+                                    </div>
+                                    <p class="desc">Crispy pastry shells filled with sweet ricotta, chocolate chips, and
+                                        pistachios.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="menu-card">
+                                <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80"
+                                    alt="Panna Cotta">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <h5>Panna Cotta</h5>
+                                        <span class="price">$10</span>
+                                    </div>
+                                    <p class="desc">Silky vanilla cream dessert with fresh berry compote and mint.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5>La Dolce Vita</h5>
+                    <p style="line-height: 1.8;">Bringing the authentic flavors of Italy to your table since 1987. Every
+                        meal is crafted with love, tradition, and the finest ingredients.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i class="bi bi-star-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-chevron-right"></i><a href="index.html">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="about.html">About Us</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="menu.html">Our Menu</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="reservation.html">Reservations</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contact Info</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt"></i> 238 Via Romana St, NY 10013</li>
+                        <li><i class="bi bi-telephone"></i> (212) 555-1987</li>
+                        <li><i class="bi bi-envelope"></i> hello@ladolcevita.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Newsletter</h5>
+                    <p style="font-size:0.9rem;">Subscribe for exclusive deals and new menu items.</p>
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control" placeholder="Your email"
+                            aria-label="Email for newsletter" id="newsletterEmail">
+                        <button class="btn" style="background:var(--primary);color:#fff;" id="newsletterBtn"
+                            type="button"><i class="bi bi-send"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="mb-1">&copy; 2026 La Dolce Vita. All rights reserved. | Made with <span
+                        style="color:#e74c3c;">&#10084;</span> in New York</p>
+                <div class="footer-datetime" id="footerDateTime"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- ==================== SUCCESS TOAST ==================== -->
+    <div class="toast-custom" id="successToast">
+        <div class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive"
+            aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    <i class="bi bi-check-circle-fill me-2"></i>
+                    <span id="toastMessage">Reservation confirmed! We'll send you a confirmation email shortly.</span>
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
