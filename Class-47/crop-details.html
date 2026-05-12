@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Details - Agricultural Information Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-seedling"></i>Agri<span>Hub</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="farming-guides.html"><i class="fas fa-book me-1"></i>Farming
+                            Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="crop-details.html"><i class="fas fa-leaf me-1"></i>Crop Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pest-control.html"><i class="fas fa-bug me-1"></i>Pest Control</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope me-1"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== CROP DETAILS ===== -->
+    <section id="crop-details">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2><i class="fas fa-leaf me-2"></i>Crop Details</h2>
+                <p>Detailed information about popular crops including growing conditions, nutrition, and harvesting</p>
+            </div>
+
+            <div class="crop-tabs fade-in">
+                <ul class="nav nav-tabs" id="cropTabs">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#wheat">
+                            🌾 Wheat
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#rice">
+                            🌿 Rice
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#maize">
+                            🌽 Maize
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tomato">
+                            🍅 Tomato
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#potato">
+                            🥔 Potato
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <!-- WHEAT -->
+                    <div class="tab-pane fade show active" id="wheat">
+                        <div class="crop-detail-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <img src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600"
+                                        alt="Wheat">
+                                    <div class="mt-3">
+                                        <span class="crop-feature-badge">Winter Crop</span>
+                                        <span class="crop-feature-badge">Staple Food</span>
+                                        <span class="crop-feature-badge">High Yield</span>
+                                        <span class="crop-feature-badge">Drought Tolerant</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3 style="color: var(--primary-green); font-weight: 800;">🌾 Wheat (Triticum
+                                        aestivum)</h3>
+                                    <p class="text-muted mb-20">One of the world's most important cereal crops, wheat is
+                                        a staple food for over 2.5 billion people globally.</p>
+                                    <table class="crop-info-table">
+                                        <tr>
+                                            <td><i class="fas fa-thermometer-half"></i>Temperature</td>
+                                            <td>10–25°C (Ideal: 15–20°C)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-tint"></i>Rainfall</td>
+                                            <td>250–750 mm per season</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-layer-group"></i>Soil Type</td>
+                                            <td>Well-drained loamy/clay loam</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-flask"></i>Soil pH</td>
+                                            <td>6.0 – 7.5</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-calendar"></i>Sowing Season</td>
+                                            <td>October – December</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-clock"></i>Maturity</td>
+                                            <td>100–150 days</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-weight"></i>Avg. Yield</td>
+                                            <td>3–5 tonnes/hectare</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-seedling"></i>Seed Rate</td>
+                                            <td>100–125 kg/hectare</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RICE -->
+                    <div class="tab-pane fade" id="rice">
+                        <div class="crop-detail-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <img src="https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=600"
+                                        alt="Rice">
+                                    <div class="mt-3">
+                                        <span class="crop-feature-badge">Kharif Crop</span>
+                                        <span class="crop-feature-badge">Water Loving</span>
+                                        <span class="crop-feature-badge">Tropical</span>
+                                        <span class="crop-feature-badge">High Demand</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3 style="color: var(--primary-green); font-weight: 800;">🌿 Rice (Oryza sativa)
+                                    </h3>
+                                    <p class="text-muted">Rice feeds more than half of the world's population and is the
+                                        dominant food crop in Asia.</p>
+                                    <table class="crop-info-table">
+                                        <tr>
+                                            <td><i class="fas fa-thermometer-half"></i>Temperature</td>
+                                            <td>20–35°C (Ideal: 25–30°C)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-tint"></i>Rainfall</td>
+                                            <td>1000–2000 mm per season</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-layer-group"></i>Soil Type</td>
+                                            <td>Clay / clay loam with water retention</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-flask"></i>Soil pH</td>
+                                            <td>5.5 – 7.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-calendar"></i>Sowing Season</td>
+                                            <td>June – July</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-clock"></i>Maturity</td>
+                                            <td>90–150 days</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-weight"></i>Avg. Yield</td>
+                                            <td>3–7 tonnes/hectare</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-seedling"></i>Seed Rate</td>
+                                            <td>20–40 kg/hectare</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIZE -->
+                    <div class="tab-pane fade" id="maize">
+                        <div class="crop-detail-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <img src="https://images.unsplash.com/photo-1601593346740-925612772716?w=600"
+                                        alt="Maize">
+                                    <div class="mt-3">
+                                        <span class="crop-feature-badge">Versatile Crop</span>
+                                        <span class="crop-feature-badge">Fast Growing</span>
+                                        <span class="crop-feature-badge">Animal Feed</span>
+                                        <span class="crop-feature-badge">Commercial</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3 style="color: var(--primary-green); font-weight: 800;">🌽 Maize (Zea mays)</h3>
+                                    <p class="text-muted">Maize is a highly versatile crop used for food, animal feed,
+                                        biofuel, and industrial applications worldwide.</p>
+                                    <table class="crop-info-table">
+                                        <tr>
+                                            <td><i class="fas fa-thermometer-half"></i>Temperature</td>
+                                            <td>18–32°C (Ideal: 21–27°C)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-tint"></i>Rainfall</td>
+                                            <td>500–800 mm per season</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-layer-group"></i>Soil Type</td>
+                                            <td>Well-drained loamy soil</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-flask"></i>Soil pH</td>
+                                            <td>5.8 – 7.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-calendar"></i>Sowing Season</td>
+                                            <td>March – May / June – July</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-clock"></i>Maturity</td>
+                                            <td>60–100 days</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-weight"></i>Avg. Yield</td>
+                                            <td>4–8 tonnes/hectare</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-seedling"></i>Seed Rate</td>
+                                            <td>20–25 kg/hectare</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TOMATO -->
+                    <div class="tab-pane fade" id="tomato">
+                        <div class="crop-detail-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <img src="https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=600"
+                                        alt="Tomato">
+                                    <div class="mt-3">
+                                        <span class="crop-feature-badge">Vegetable Crop</span>
+                                        <span class="crop-feature-badge">High Value</span>
+                                        <span class="crop-feature-badge">Year Round</span>
+                                        <span class="crop-feature-badge">Market Crop</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3 style="color: var(--primary-green); font-weight: 800;">🍅 Tomato (Solanum
+                                        lycopersicum)</h3>
+                                    <p class="text-muted">Tomato is a high-value commercial crop with wide culinary use,
+                                        rich in vitamins C and A and lycopene antioxidants.</p>
+                                    <table class="crop-info-table">
+                                        <tr>
+                                            <td><i class="fas fa-thermometer-half"></i>Temperature</td>
+                                            <td>18–27°C (Ideal: 20–25°C)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-tint"></i>Rainfall</td>
+                                            <td>600–1200 mm per season</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-layer-group"></i>Soil Type</td>
+                                            <td>Sandy loam to loam, well-drained</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-flask"></i>Soil pH</td>
+                                            <td>6.0 – 7.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-calendar"></i>Sowing Season</td>
+                                            <td>Year round (varies by region)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-clock"></i>Maturity</td>
+                                            <td>60–85 days after transplanting</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-weight"></i>Avg. Yield</td>
+                                            <td>20–40 tonnes/hectare</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-seedling"></i>Seed Rate</td>
+                                            <td>150–200 g/hectare</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- POTATO -->
+                    <div class="tab-pane fade" id="potato">
+                        <div class="crop-detail-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600"
+                                        alt="Potato">
+                                    <div class="mt-3">
+                                        <span class="crop-feature-badge">Root Crop</span>
+                                        <span class="crop-feature-badge">Cool Season</span>
+                                        <span class="crop-feature-badge">High Calorie</span>
+                                        <span class="crop-feature-badge">Global Staple</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3 style="color: var(--primary-green); font-weight: 800;">🥔 Potato (Solanum
+                                        tuberosum)</h3>
+                                    <p class="text-muted">Potato is the world's fourth-largest food crop, valued for its
+                                        versatility, nutrition, and adaptability to different climates.</p>
+                                    <table class="crop-info-table">
+                                        <tr>
+                                            <td><i class="fas fa-thermometer-half"></i>Temperature</td>
+                                            <td>15–20°C (Ideal: 17–19°C)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-tint"></i>Rainfall</td>
+                                            <td>500–750 mm per season</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-layer-group"></i>Soil Type</td>
+                                            <td>Loose, well-drained sandy loam</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-flask"></i>Soil pH</td>
+                                            <td>5.2 – 6.4</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-calendar"></i>Sowing Season</td>
+                                            <td>October – December</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-clock"></i>Maturity</td>
+                                            <td>70–120 days</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-weight"></i>Avg. Yield</td>
+                                            <td>20–30 tonnes/hectare</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-seedling"></i>Seed Rate</td>
+                                            <td>1500–2500 kg/hectare</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>Agri<span>Hub</span>
+                    </div>
+                    <p class="footer-desc">
+                        Your trusted agricultural information platform dedicated to empowering farmers with modern
+                        knowledge, sustainable practices, and expert guidance for better yields and prosperous farming.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i>Home</a></li>
+                        <li><a href="#farming-guides"><i class="fas fa-chevron-right"></i>Farming Guides</a></li>
+                        <li><a href="#crop-details"><i class="fas fa-chevron-right"></i>Crop Details</a></li>
+                        <li><a href="#pest-control"><i class="fas fa-chevron-right"></i>Pest Control</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i>Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h6 class="footer-heading">Popular Crops</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Wheat Cultivation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Rice Farming</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Maize Growing</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Vegetable Farming</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Fruit Orchards</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h6 class="footer-heading">Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Weather Forecasts</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Market Prices</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Govt. Schemes</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Agri Equipment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Expert Helpline</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="datetime-display">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span id="footerDate"></span>
+                    <i class="fas fa-clock ms-2"></i>
+                    <span id="footerTime"></span>
+                </div>
+                <p class="mt-2">© <span id="currentYear"></span> <strong>AgriHub</strong> — Agricultural Information
+                    Hub. All Rights Reserved. Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> for Farmers
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCROLL TO TOP BUTTON ===== -->
+    <button id="scrollToTop" title="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Agricultural Information Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-seedling"></i>Agri<span>Hub</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="farming-guides.html"><i class="fas fa-book me-1"></i>Farming
+                            Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crop-details.html"><i class="fas fa-leaf me-1"></i>Crop Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pest-control.html"><i class="fas fa-bug me-1"></i>Pest Control</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html"><i class="fas fa-envelope me-1"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2><i class="fas fa-envelope me-2"></i>Contact Us</h2>
+                <p>Have questions? Our agricultural experts are here to help you grow better</p>
+            </div>
+
+            <div class="contact-wrapper fade-in">
+                <div class="row g-0">
+                    <div class="col-lg-4">
+                        <div class="contact-info">
+                            <h3>Get In Touch</h3>
+                            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h6>Our Location</h6>
+                                    <p>123 Green Farm Road, AgriCity, AC 45678</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h6>Phone Number</h6>
+                                    <p>+1 (800) 123-AGRI (2474)</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h6>Email Address</h6>
+                                    <p>info@agrihub.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-detail-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <h6>Working Hours</h6>
+                                    <p>Mon – Sat: 8:00 AM – 6:00 PM</p>
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="contact-form-wrapper">
+                            <h3>Send Us a Message</h3>
+
+                            <form id="contactForm" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">First Name *</label>
+                                            <input type="text" class="form-control" id="firstName"
+                                                placeholder="Enter first name">
+                                            <div class="invalid-feedback">Please enter your first name.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Last Name *</label>
+                                            <input type="text" class="form-control" id="lastName"
+                                                placeholder="Enter last name">
+                                            <div class="invalid-feedback">Please enter your last name.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Email Address *</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="your@email.com">
+                                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Phone Number</label>
+                                            <input type="tel" class="form-control" id="phone"
+                                                placeholder="+1 (000) 000-0000">
+                                            <div class="invalid-feedback">Please enter a valid phone number.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label">Topic of Inquiry *</label>
+                                    <select class="form-control" id="topic">
+                                        <option value="">-- Select a topic --</option>
+                                        <option>Soil & Fertilization</option>
+                                        <option>Crop Disease & Pest</option>
+                                        <option>Irrigation & Water</option>
+                                        <option>Organic Farming</option>
+                                        <option>Harvesting & Storage</option>
+                                        <option>General Inquiry</option>
+                                    </select>
+                                    <div class="invalid-feedback">Please select a topic.</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" rows="5"
+                                        placeholder="Describe your farming issue or question in detail..."></textarea>
+                                    <div class="invalid-feedback">Please enter your message (minimum 20 characters).
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="agreeTerms">
+                                        <label class="form-check-label" for="agreeTerms"
+                                            style="font-size: 0.88rem; color: #666;">
+                                            I agree to receive agricultural updates and newsletters from AgriHub.
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn-submit">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+
+                                <div class="success-message" id="successMessage">
+                                    <i class="fas fa-check-circle me-2"></i>
+                                    Thank you! Your message has been sent successfully. Our team will contact you within
+                                    24 hours.
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>Agri<span>Hub</span>
+                    </div>
+                    <p class="footer-desc">
+                        Your trusted agricultural information platform dedicated to empowering farmers with modern
+                        knowledge, sustainable practices, and expert guidance for better yields and prosperous farming.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i>Home</a></li>
+                        <li><a href="#farming-guides"><i class="fas fa-chevron-right"></i>Farming Guides</a></li>
+                        <li><a href="#crop-details"><i class="fas fa-chevron-right"></i>Crop Details</a></li>
+                        <li><a href="#pest-control"><i class="fas fa-chevron-right"></i>Pest Control</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i>Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h6 class="footer-heading">Popular Crops</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Wheat Cultivation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Rice Farming</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Maize Growing</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Vegetable Farming</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Fruit Orchards</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h6 class="footer-heading">Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Weather Forecasts</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Market Prices</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Govt. Schemes</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Agri Equipment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Expert Helpline</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="datetime-display">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span id="footerDate"></span>
+                    <i class="fas fa-clock ms-2"></i>
+                    <span id="footerTime"></span>
+                </div>
+                <p class="mt-2">© <span id="currentYear"></span> <strong>AgriHub</strong> — Agricultural Information
+                    Hub. All Rights Reserved. Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> for Farmers
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCROLL TO TOP BUTTON ===== -->
+    <button id="scrollToTop" title="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Liberation War Archive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-landmark"></i>Liberation<span>Archive</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="documents.html">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2><i class="fas fa-envelope me-2"></i>Contact the Archive</h2>
+                <p>Inquire about research access, donate materials, or request educational resources</p>
+            </div>
+
+            <div class="contact-wrapper reveal">
+                <div class="row g-0">
+                    <div class="col-lg-4">
+                        <div class="contact-info-side">
+                            <h3>Get In Touch</h3>
+                            <p>Our archivists and historians are available to assist researchers, students, and families
+                                seeking information.</p>
+
+                            <div class="contact-detail">
+                                <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="contact-detail-text">
+                                    <h6>Archive Location</h6>
+                                    <p>42 Independence Avenue, Memorial Quarter, Dhaka 1000</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-icon-box"><i class="fas fa-phone"></i></div>
+                                <div class="contact-detail-text">
+                                    <h6>Phone</h6>
+                                    <p>+880 2-9551234</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+                                <div class="contact-detail-text">
+                                    <h6>Email</h6>
+                                    <p>archive@liberationwar-history.org</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail">
+                                <div class="contact-icon-box"><i class="fas fa-clock"></i></div>
+                                <div class="contact-detail-text">
+                                    <h6>Research Hours</h6>
+                                    <p>Sun – Thu: 9:00 AM – 5:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="contact-form-side">
+                            <h3>Send an Inquiry</h3>
+                            <form id="contactForm" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Full Name *</label>
+                                            <input type="text" class="form-control" id="fullName"
+                                                placeholder="Your full name">
+                                            <div class="invalid-feedback">Please enter your full name.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Email Address *</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="your@email.com">
+                                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Phone Number</label>
+                                            <input type="tel" class="form-control" id="phone"
+                                                placeholder="+880 1XXX-XXXXXX">
+                                            <div class="invalid-feedback">Please enter a valid phone number.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Inquiry Type *</label>
+                                            <select class="form-control" id="inquiryType">
+                                                <option value="">-- Select inquiry type --</option>
+                                                <option>Research Access</option>
+                                                <option>Donate Materials</option>
+                                                <option>Educational Visit</option>
+                                                <option>Interview Request</option>
+                                                <option>General Inquiry</option>
+                                            </select>
+                                            <div class="invalid-feedback">Please select an inquiry type.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" rows="5"
+                                        placeholder="Describe your inquiry in detail..."></textarea>
+                                    <div class="invalid-feedback">Message must be at least 20 characters.</div>
+                                </div>
+
+                                <button type="submit" class="btn-submit-archive">
+                                    <i class="fas fa-paper-plane me-2"></i>Submit Inquiry
+                                </button>
+
+                                <div class="success-alert" id="successAlert">
+                                    <i class="fas fa-check-circle me-2"></i>
+                                    Thank you. Your inquiry has been received. An archivist will respond within 2–3
+                                    business days.
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand"><i class="fas fa-landmark"></i>Liberation<span>Archive</span></div>
+                    <p class="footer-desc">
+                        A national digital repository committed to preserving the memory, documents, and testimonies of
+                        the Liberation War for education, research, and remembrance.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="footer-heading">Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i>Home</a></li>
+                        <li><a href="#documents"><i class="fas fa-chevron-right"></i>Documents</a></li>
+                        <li><a href="#interviews"><i class="fas fa-chevron-right"></i>Interviews</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i>Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h6 class="footer-heading">Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Research Portal</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Education Kits</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Donate Archives</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Volunteer</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <h6 class="footer-heading">Legal</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Terms of Use</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Citation Guide</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="datetime-box">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span id="footerDate"></span>
+                    <span style="color:rgba(255,255,255,0.3);">|</span>
+                    <i class="fas fa-clock"></i>
+                    <span id="footerTime"></span>
+                </div>
+                <p class="mt-2 mb-0" style="font-size: 0.85rem; opacity: 0.7;">
+                    <span id="currentYear"></span> <strong>Liberation War Archive</strong>. All Rights Reserved.
+                    Preserving History for Future Generations.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCROLL TO TOP ===== -->
+    <button id="scrollToTop" title="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ===== LIGHTBOX MODAL ===== -->
+    <div class="modal fade lightbox-modal" id="lightboxModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-0">
+                    <img src="" alt="Archive Image" class="lightbox-img" id="lightboxImage">
+                    <div class="lightbox-caption" id="lightboxCaption"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -57,6 +57,8 @@
 <div>Class-44: Build Educational Websites, Short Questions & MCQs</div>
 <div>Class-45: Build E-Commerce Websites & Short Questions</div>
 <div>Class-46: Build Restaurant Websites, Short Questions & MCQs</div>
+<div>Class-47: Build Agricultural Information Hub & Short Questions</div>
+<div>Class-48: Build Liberation War Archive & Short Questions</div>
 
 ---
 
