@@ -10,8 +10,6 @@
 
 # Educational Website
 
-* [Back to Top ⬆️](#topics)
-
 This **Educational Website** have about section, programs section, events section, gallery section and review section and JavaScript using for **Date and Time show**, **Form Validation** & **Scroll to Top Button**.
 
 ## 🛠️ Tech Stack
@@ -45,13 +43,11 @@ educational-website/
 <img src="./assets/screenshots/project-screenshot-3.png" alt="Educational Website Project Screenshot 3" width="600">
 </p>
 
+* [Back to Top ⬆️](#topics)
+
 ---
 
 # Short Questions:
-
-* [Back to Top ⬆️](#topics)
-
-<br>
 
 * [HTML (30 Questions)](#html-30-questions)
 * [CSS (30 Questions)](#css-30-questions)
@@ -60,8 +56,6 @@ educational-website/
 * [Bootstrap (25 Questions)](#bootstrap-25-questions)
 
 # HTML (30 Questions)
-
-* [Short Questions and MCQs](#short-questions-and-mcqs)
 
 ## 1. What does HTML stand for?
 **Answer:** HyperText Markup Language.
@@ -169,11 +163,14 @@ educational-website/
 ## 30. Name one form validation attribute.
 **Answer:** `required`
 
+<br>
+
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+
 ---
 
 # CSS (30 Questions)
-
-* [Short Questions and MCQs](#short-questions-and-mcqs)
 
 ## 31. What does CSS stand for?
 **Answer:** Cascading Style Sheets.
@@ -289,11 +286,14 @@ text-decoration: none;
 ## 60. What does `flex-wrap: wrap;` do?
 **Answer:** Allows wrapping to new lines.
 
+<br>
+
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+
 ---
 
 # JavaScript (25 Questions)
-
-* [Short Questions and MCQs](#short-questions-and-mcqs)
 
 ## 61. What is JavaScript?
 **Answer:** A scripting language for interactive web pages.
@@ -401,11 +401,14 @@ event.preventDefault();
 ## 85. Purpose of `parseInt()`?
 **Answer:** Converts string to integer.
 
+<br>
+
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+
 ---
 
 # jQuery (15 Questions)
-
-* [Short Questions and MCQs](#short-questions-and-mcqs)
 
 ## 86. What is jQuery?
 **Answer:** JavaScript library.
@@ -464,11 +467,14 @@ $('#id').css('color','red');
 ## 100. jQuery uses which selectors?
 **Answer:** CSS selectors.
 
+<br>
+
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+
 ---
 
 # Bootstrap (25 Questions)
-
-* [Short Questions and MCQs](#short-questions-and-mcqs)
 
 ## 101. What is Bootstrap?
 **Answer:** Responsive CSS framework.
@@ -549,11 +555,14 @@ $('#id').css('color','red');
 ## 125. How to include Bootstrap?
 **Answer:** CDN or downloaded files.
 
+<br>
+
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+
 ---
 
 # MCQs
-
-* [Back to Top ⬆️](#topics)
 
 ### 1. What is the Internet?
 **Answer:**  
@@ -622,8 +631,6 @@ Web = Service using Internet
 A clickable link to another page or resource.
 
 ---
-
-# MCQs
 
 ### 11. HTML is used for:
 - A. Styling
@@ -771,9 +778,13 @@ Document Object Model.
 **Answer:**  
 A page that changes based on user interaction.
 
----
+<br>
 
-# MCQs
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+* [Back To - MCQs](#mcqs)
+
+<br>
 
 ### 30. JavaScript is used for:
 - A. Styling
@@ -1026,6 +1037,16 @@ A computer that stores website files.
 
 ---
 
+<br>
+
+* [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+* [Back To - MCQs](#mcqs)
+
+<br>
+
+---
+
 ### 60. Which tag creates a hyperlink?
 - A. `<img>`
 - B. `<a>`
@@ -1134,4 +1155,10 @@ A computer that stores website files.
 
 ✅ **Answer:** B
 
+---
+
+<br>
+
 * [Back to Top ⬆️](#topics)
+* [Back To - Short Questions](#short-questions)
+* [Back To - MCQs](#mcqs)
